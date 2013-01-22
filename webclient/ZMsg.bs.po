@@ -1,0 +1,659 @@
+#. extracted from ZMsg.properties
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2013-01-21 20:02+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 1.9.0\n"
+
+
+#. # 
+#. # ***** BEGIN LICENSE BLOCK *****
+#. # Zimbra Collaboration Suite Web Client
+#. # Copyright (C) 2005, 2006, 2007, 2008, 2009, 2010, 2011 Zimbra, Inc.
+#. # 
+#. # The contents of this file are subject to the Zimbra Public License
+#. # Version 1.3 ("License"); you may not use this file except in
+#. # compliance with the License.  You may obtain a copy of the License at
+#. # http://www.zimbra.com/license.
+#. # 
+#. # Software distributed under the License is distributed on an "AS IS"
+#. # basis, WITHOUT WARRANTY OF ANY KIND, either express or implied.
+#. # ***** END LICENSE BLOCK *****
+#. #
+#: errorEmptyResponse
+#, fuzzy
+msgid "Received empty response from server"
+msgstr "Neočekivan odziv POP3 servera."
+
+#: errorMaintenanceMode
+msgid "The account is in maintenance mode"
+msgstr ""
+
+#: BAD_JSON_RESPONSE
+#, fuzzy
+msgctxt "BAD_JSON_RESPONSE"
+msgid "A network error has occurred."
+msgstr "Došlo je do greške pri štampanju"
+
+#: EMPTY_RESPONSE
+#, fuzzy
+msgid "Cannot connect to server."
+msgstr "Ne mogu se povezati sa serverom"
+
+#: NETWORK_ERROR
+#, fuzzy
+msgctxt "NETWORK_ERROR"
+msgid "A network error has occurred."
+msgstr "Došlo je do greške pri štampanju"
+
+#: SOAP_ERROR
+#, fuzzy
+msgctxt "SOAP_ERROR"
+msgid "A network error has occurred."
+msgstr "Došlo je do greške pri štampanju"
+
+#: CSFE_SVC_ERROR
+#, fuzzy
+msgctxt "CSFE_SVC_ERROR"
+msgid "A network service error has occurred."
+msgstr "Interna greška servisa se desila"
+
+#: account.AUTH_FAILED
+msgid ""
+"The username or password is incorrect. Verify that CAPS LOCK is not on, and "
+"then retype the current username and password."
+msgstr ""
+
+#: account.CHANGE_PASSWORD
+#, fuzzy
+msgid "Your password is no longer valid. Please choose a new password."
+msgstr "%1 zahtijeva lozinku za pristup. Unesite je."
+
+#: account.INVALID_PASSWORD
+#, fuzzy
+msgid "You have entered an invalid password."
+msgstr "Unijeli ste neispravno ime za parametar."
+
+#: account.INVALID_PREF_NAME
+#, fuzzy
+msgid "Invalid preference name."
+msgstr "Nevažeće ime projekta"
+
+#: account.INVALID_PREF_VALUE
+#, fuzzy
+msgid "Invalid preference value."
+msgstr "Loša vrijednost entiteta."
+
+#: account.MAINTENANCE_MODE
+#, fuzzy
+msgctxt "account.MAINTENANCE_MODE"
+msgid "This account is currently in maintenance mode."
+msgstr "Ova kolekcija trenutno nije dostupna."
+
+#: account.NO_SUCH_ACCOUNT
+#, fuzzy
+msgid "No such account exists."
+msgstr "Korisnički nalog vam ističe danas."
+
+#: account.NO_SUCH_SAVED_SEARCH
+#, fuzzy
+msgid "No such saved search exists."
+msgstr "Nema takve skripte"
+
+#: account.ACCT_NO_SUCH_TAG
+#, fuzzy
+msgctxt "account.ACCT_NO_SUCH_TAG"
+msgid "No such tag exists."
+msgstr "Nema takve oznake"
+
+#: account.TOO_MANY_IDENTITIES
+#, fuzzy
+msgid ""
+"The identity could not be created because you have exceeded your identity "
+"quota."
+msgstr ""
+"Direktorij %1, ne može biti kreiran.\n"
+"Molimo vas da se uvjerite da imate zahtjevane dozvole."
+
+#: account.PASSWORD_CHANGE_TOO_SOON
+#, fuzzy
+msgid "Password cannot be changed too soon."
+msgstr "Lozinka nije mogla biti promijenjena."
+
+#: account.PASSWORD_LOCKED
+#, fuzzy
+msgid ""
+"Password locked. User not allowed to change password. Please contact your "
+"System Administrator."
+msgstr "Korisnički nalog vam je istekao, obratite se sistem-administratoru."
+
+#: account.PASSWORD_RECENTLY_USED
+#, fuzzy
+msgid ""
+"The password you submitted has recently been used. Please choose a different "
+"password."
+msgstr ""
+"Izvorna slika koju ste odredili ne postoji. Molimo odredite neku drugu."
+
+#. # {0} = filename
+#: formatter.INVALID_FORMAT
+#, fuzzy
+msgid "Invalid file format for file \"{0}\"."
+msgstr "Pogrešan format datoteke"
+
+#. # {0} = view, {1} = folder name
+#: formatter.INVALID_TYPE
+msgid "Folder \"{1}\" cannot contain items of type \"{0}\"."
+msgstr ""
+
+#. # {0} = item name
+#: formatter.MISMATCHED_META
+#, fuzzy
+msgid "Meta information for item \"{0}\" does not match content."
+msgstr "Prikazuje informacije o trenutnom kontekstu"
+
+#: formatter.MISMATCHED_SIZE
+msgid "Size of ignored item \"{0}\" does not match."
+msgstr ""
+
+#: formatter.MISMATCHED_TYPE
+#, fuzzy
+msgid "Cannot overwrite item \"{0}\" of different type."
+msgstr "Izvršavanje operacija nad vektorima različitih veličina nije moguće."
+
+#: formatter.MISSING_BLOB
+msgid "Content for item \"{0}\" is missing."
+msgstr ""
+
+#: formatter.MISSING_META
+#, fuzzy
+msgid "Meta information for item \"{0}\" is missing."
+msgstr "Nisu pronađene detaljne informacije za ovu datoteku."
+
+#: formatter.MISSING_VCARD_FIELDS
+#, fuzzy
+msgid "Contact item \"{0}\" does not contain any fields."
+msgstr "MBox ne sadrži poruke."
+
+#. # {0} = item name, {1} = original error message
+#: formatter.UNKNOWN_ERROR
+#, fuzzy
+msgid "Unknown error for item \"{0}\": {1}"
+msgstr "Nepoznat kôd greške %1"
+
+# #-#-#-#-#  kio4-bs.po (kio4)  #-#-#-#-#
+# >> @item:inlistbox Permissions
+#. # The im.lower_case messages are received as part of a chat message
+#: im.forbidden
+#, fuzzy
+msgid "Forbidden."
+msgstr ""
+"#-#-#-#-#  kommander-bs.po (kdewebdev)  #-#-#-#-#\n"
+"Zabranjeno\n"
+"#-#-#-#-#  kio4-bs.po (kio4)  #-#-#-#-#\n"
+"zabranjeno"
+
+#: im.internal_server_error
+#, fuzzy
+msgid "An internal server error occurred."
+msgstr "Interna greška servera: %1"
+
+#: im.item_not_found
+msgid "The user was not found. The message may not have been sent."
+msgstr ""
+
+#: im.jid_malformed
+#, fuzzy
+msgctxt "im.jid_malformed"
+msgid "The address is invalid."
+msgstr "Ključ je nevaljan."
+
+#: im.not_acceptable
+#, fuzzy
+msgid "The message is not acceptable."
+msgstr "Poruka je prazna."
+
+#: im.not_allowed
+#, fuzzy
+msgid "You are not allowed to send a message to the intended recipient."
+msgstr "Prijavljivanje vam trenutno nije dozvoljeno."
+
+#: im.payment_required
+#, fuzzy
+msgid "Payment required."
+msgstr "Frekvencija plaćanja"
+
+#: im.recipient_unavailable
+#, fuzzy
+msgid "The recipient is unavailable."
+msgstr "Naziv primaoca"
+
+#: im.redirect
+#, fuzzy
+msgid "The user is at a different address."
+msgstr "Izaberite drugačije ime."
+
+#: im.remote_server_not_found
+#, fuzzy
+msgid "The remote server could not be found."
+msgstr "Ne mogu da nađem modul %1."
+
+#: im.remote_server_timeout
+#, fuzzy
+msgid "The connection to the remote server timed out."
+msgstr "veza sa %1 vremenskim serverom zaustavljena."
+
+#: im.resource_constraint
+#, fuzzy
+msgid "The system is busy."
+msgstr "Modem je zauzet."
+
+#: im.service_unavailable
+#, fuzzy
+msgid "Messages are not accepted by the service."
+msgstr "Niste spojeni na server."
+
+#: im.undefined_condition
+#, fuzzy
+msgid "An undefined error occurred. "
+msgstr "Desila se neopisana greška."
+
+#: im.unknown_error
+msgid "An unknown error occurred."
+msgstr "Desila se nepoznata greška."
+
+#. # The following errors happen when trying to join a chat room
+#: im.Banned
+#, fuzzy
+msgid "You have been banned from the room."
+msgstr "Zabranjen vam je pristup kanalu"
+
+#: im.MaxUsers
+msgid "The room has reached capacity."
+msgstr ""
+
+#: im.MustUseReservedRoomnick
+#, fuzzy
+msgid "You must use a reserved nickname."
+msgstr "Morate navesti ime."
+
+#: im.NicknameConflict
+#, fuzzy
+msgid "Someone else is already using your nickname."
+msgstr "Odabrani teren se već nalazi na listi terena."
+
+#: im.NoSuchRoom
+#, fuzzy
+msgid "No such room."
+msgstr "Nema takve stavke."
+
+#: im.NotAllowed
+#, fuzzy
+msgid "You are not allowed to create the room."
+msgstr "Prijavljivanje vam trenutno nije dozvoljeno."
+
+#: im.NotAMember
+msgid "The room is invite-only, and you aren't a member."
+msgstr ""
+
+#: im.PasswordRequired
+#, fuzzy
+msgid "A password is required to enter the room."
+msgstr "Za pridruživanje sobi %1 potrebna je šifra."
+
+#: im.Unknown
+msgid "Unknown error."
+msgstr "Nepoznata greška."
+
+#: im.INVALID_ADDRESS
+#, fuzzy
+msgctxt "im.INVALID_ADDRESS"
+msgid "The address is invalid."
+msgstr "Ključ je nevaljan."
+
+#: mail.ALREADY_EXISTS
+#, fuzzy
+msgid "An object with that name already exists."
+msgstr "Profil sa tim imenom već postoji"
+
+#: mail.MODIFY_CONFLICT
+msgid ""
+"Item version number conflict. Another version was added between edit and "
+"save."
+msgstr ""
+
+#: mail.INVALID_NAME
+msgid ""
+"Sorry, \"{0}\" is not a valid name. It contains at least one invalid "
+"character."
+msgstr ""
+
+#: mail.INVITE_OUT_OF_DATE
+#, fuzzy
+msgid "The invite has been modified and is no longer current."
+msgstr ""
+"Crtež je promijenjen.\n"
+"Da li želite da ga snimite?"
+
+#: mail.MAINTENANCE
+#, fuzzy
+msgctxt "mail.MAINTENANCE"
+msgid "This account is currently in maintenance mode."
+msgstr "Ova kolekcija trenutno nije dostupna."
+
+#: mail.MESSAGE_TOO_BIG
+msgid ""
+"This message cannot be sent because it has exceeded the maximum allowed size."
+msgstr ""
+
+#: mail.NO_SUCH_CONV
+#, fuzzy
+msgid "No such conversation exists."
+msgstr "Nema takve kolekcije."
+
+#: mail.NO_SUCH_FOLDER
+#, fuzzy
+msgid "No such folder exists."
+msgstr "Direktorij postoji"
+
+#: mail.NO_SUCH_ITEM
+#, fuzzy
+msgid "Item \"{0}\" does not exist."
+msgstr "Datoteka \"%1\" ne postoji."
+
+#: mail.NO_SUCH_CALITEM
+msgid ""
+"Calendar or task item \"{0}\" does not exist. It may have been rescheduled."
+msgstr ""
+
+#: mail.NO_SUCH_MSG
+#, fuzzy
+msgid "No such message exists."
+msgstr "Prikaži datume poruka."
+
+#: mail.NO_SUCH_PART
+#, fuzzy
+msgid "No such message part exists."
+msgstr "Prikaži datume poruka."
+
+#: mail.NO_SUCH_TAG
+#, fuzzy
+msgctxt "mail.NO_SUCH_TAG"
+msgid "No such tag exists."
+msgstr "Nema takve oznake"
+
+#: mail.QUERY_PARSE_ERROR
+#, fuzzy
+msgid "Unable to parse the search query."
+msgstr "Ne mogu dobaviti obrazac za pretragu."
+
+#: mail.QUOTA_EXCEEDED
+#, fuzzy
+msgid ""
+"Your message could not be sent because you have exceeded your mail quota."
+msgstr ""
+"Vaša poruka nije mogla biti poslata. Ne možete slati poruke dok je vaš "
+"status 'Naizgled offline'. "
+
+#: mail.TOO_MANY_CONTACTS
+#, fuzzy
+msgid ""
+"Contact could not be created because you have exceeded your contact quota."
+msgstr ""
+"Kolačiće nije moguće uključiti zato što se ne može pokrenuti demon kolačića."
+
+#: mail.TOO_MANY_QUERY_TERMS_EXPANDED
+#, fuzzy
+msgid "Please be more specific in your search criteria."
+msgstr "Definiši kriterije pretrage"
+
+#: mail.MAIL_UNABLE_TO_IMPORT_APPOINTMENTS
+#, fuzzy
+msgctxt "mail.MAIL_UNABLE_TO_IMPORT_APPOINTMENTS"
+msgid "Unable to import. The chosen file may be invalid."
+msgstr "Ne mogu otvoriti konfiguracijsku datoteku za čitanje."
+
+#: mail.MAIL_UNABLE_TO_IMPORT_CONTACTS
+#, fuzzy
+msgctxt "mail.MAIL_UNABLE_TO_IMPORT_CONTACTS"
+msgid "Unable to import. The chosen file may be invalid."
+msgstr "Ne mogu otvoriti konfiguracijsku datoteku za čitanje."
+
+#: mail.SEND_FAILURE
+#, fuzzy
+msgid "Could not send message: {0}"
+msgstr "Ne mogu sastaviti poruku: %1"
+
+#: mail.SEND_ABORTED_ADDRESS_FAILURE
+#, fuzzy
+msgid "Could not send message due to invalid address(es)"
+msgstr "Ne mogu poslati poruku. Nevažeći prijenos."
+
+#: mail.TOO_MANY_TAGS
+msgid "A tag could not be created because you have exceeded the limit."
+msgstr ""
+
+#: offline.ONLINE_ONLY_OP
+#, fuzzy
+msgid ""
+"You must be online to use this feature. Please check your network connection "
+"and try again."
+msgstr ""
+"Ne mogu se spojiti na server.  Molim provjerite vaše postavke i pokušajte "
+"ponovo."
+
+#: remote.TIMEOUT
+#, fuzzy
+msgid "A timeout error has occurred."
+msgstr "Došlo je do greške pri štampanju"
+
+#: service.PARSE_ERROR
+#, fuzzy
+msgid "A parsing error has occurred."
+msgstr "Došlo je do greške pri štampanju"
+
+#: service.PERM_DENIED
+#, fuzzy
+msgid "Permission denied."
+msgstr ""
+"#-#-#-#-#  kdelibs4-bs.po (kdelibs4)  #-#-#-#-#\n"
+"Dozvola uskraćena\n"
+"#-#-#-#-#  kdeqt-bs.po (kdeqt)  #-#-#-#-#\n"
+"Dozvola odbijena"
+
+#: service.FAILURE
+#, fuzzy
+msgctxt "service.FAILURE"
+msgid "A network service error has occurred."
+msgstr "Interna greška servisa se desila"
+
+#: service.INVALID_REQUEST
+#, fuzzy
+msgid "An invalid request was made."
+msgstr "poslan je nevažeći argument"
+
+#: service.UNKNOWN_DOCUMENT
+#, fuzzy
+msgid "Server error (unknown command sent to server)."
+msgstr "Boja komandi poslana serveru."
+
+#: service.RESOURCE_UNREACHABLE
+#, fuzzy
+msgid "Resource unreachable."
+msgstr "Mreža je nedostižna"
+
+#: service.TEMPORARILY_UNAVAILABLE
+#, fuzzy
+msgid "Service temporarily unavailable."
+msgstr "Izabrani torent nije dostupan."
+
+#: service.AUTH_REQUIRED
+#, fuzzy
+msgid "Authentication Required"
+msgstr ""
+"#-#-#-#-#  kopete-bs.po (__kde__kdenetwork__kopete)  #-#-#-#-#\n"
+"Identifikacija nije uspjela\n"
+"#-#-#-#-#  kdmgreet-bs.po (kdmgreet)  #-#-#-#-#\n"
+"Autentifikacija nije prošla"
+
+#: service.AUTH_EXPIRED
+#, fuzzy
+msgid "Your session has expired. Please login again."
+msgstr "Vaš odgovor je pogrešan. Molimo, pokušajte ponovno."
+
+#: service.WRONG_HOST
+#, fuzzy
+msgid "Request was sent to the wrong server."
+msgstr "Ponovo se poveži sa trenutnim serverom."
+
+#: service.NON_READONLY_OPERATION_DENIED
+#, fuzzy
+msgid "The server is in read-only mode."
+msgstr "Server je udaljeni"
+
+# >> @item:intable
+#: service.PROXY_ERROR
+#, fuzzy
+msgid "Proxy error."
+msgstr "greška pariteta"
+
+#: service.TOO_MANY_HOPS
+#, fuzzy
+msgid "Too many hops between servers."
+msgstr "Previše otvorenih datoteka"
+
+#: service.ALREADY_IN_PROGRESS
+#, fuzzy
+msgid "Operation already in progress."
+msgstr "postupak je već u toku"
+
+#: service.NOT_IN_PROGRESS
+#, fuzzy
+msgid "Operation not in progress."
+msgstr "Registrovanje u toku..."
+
+#: service.INTERRUPTED
+#, fuzzy
+msgid "The operation has been interrupted"
+msgstr "Zahtijevana operacija je otkazana."
+
+#: service.NO_SPELL_CHECK_URL
+#, fuzzy
+msgid "No spell check server defined."
+msgstr "Serveri ključeva nisu definisani"
+
+#: voice.UNABLE_TO_RETRIEVE_PROFILE_SUMMARY
+msgid ""
+"The system is currently unable to complete your request. We apologize for "
+"this inconvenience."
+msgstr ""
+
+#: voice.UNABLE_TO_RETRIEVE_CALLLOGS
+msgid ""
+"We are currently unable to display call records. We apologize for this "
+"inconvenience."
+msgstr ""
+
+#: voice.UNABLE_TO_RETRIEVE_VOICEMAIL_FOLDER
+msgid "We are temporarily unable to display voice mail records."
+msgstr ""
+
+#: voice.UNABLE_TO_UPDATE_CALL_FEATURES
+msgctxt "voice.UNABLE_TO_UPDATE_CALL_FEATURES"
+msgid ""
+"We are temporarily unable to forward calls. We apologize for this "
+"inconvenience."
+msgstr ""
+
+#: voice.UNABLE_TO_MODIFY_CALL_FEATURES
+msgctxt "voice.UNABLE_TO_MODIFY_CALL_FEATURES"
+msgid ""
+"We are temporarily unable to forward calls. We apologize for this "
+"inconvenience."
+msgstr ""
+
+#: voice.UNABLE_TO_MODIFY_VOICEMAIL_PREFS
+#, fuzzy
+msgid ""
+"An error occurred while attempting to update your voice mail preferences. "
+"Please try again."
+msgstr ""
+"Greška pri pokušaju pokretanja skripte na ovoj stranici.\n"
+"\n"
+"%1 red %2:\n"
+"%3"
+
+#: voice.UNABLE_TO_FORWARD_VOICEMAIL
+#, fuzzy
+msgid "Your email could not be forwarded at this time. Please try again later."
+msgstr ""
+"Članci u ovoj grupi se ne mogu označiti kao pročitani jer se još uvijek "
+"skidaju.\n"
+"Molim pokušajte kasnije."
+
+#: voice.UNABLE_TO_RETRIEVE_CALL_FEATURES
+#, fuzzy
+msgid "Unable to retrieve call features."
+msgstr "Ne mogu da dobavim riječ."
+
+#: voice.UNABLE_TO_RETRIEVE_VOICEMAIL_CONTENT
+#, fuzzy
+msgid "Unable to retrieve voice mail content."
+msgstr "Ne mogu da dobavim riječ."
+
+#: voice.UNABLE_TO_RETRIEVE_VOICEMAIL_PREFS
+#, fuzzy
+msgid "Unable to retrieve voice mail preferences."
+msgstr "Ne mogu pokrenuti proces za poštu."
+
+#: voice.UNABLE_TO_RETRIEVE_VOICEMAIL_SUMMARY
+#, fuzzy
+msgid "Unable to retrieve voice mail summary."
+msgstr "Neuspjelo preuzimanje liste fascikli."
+
+#: voice.UNABLE_TO_MODIFY_VOICEMAIL_STATUS
+#, fuzzy
+msgid "Unable to modify voice mail status. "
+msgstr "Ne mogu da odredim stanje diska."
+
+#: voice.UNABLE_TO_EMPTY_VOICEMAIL_TRASH
+#, fuzzy
+msgid "Unable to empty voice mail trash."
+msgstr "Nemoguće završiti dobavljanje pošte."
+
+#: voice.UNABLE_TO_DELETE_VOICEMAIL
+#, fuzzy
+msgid "Unable to delete voice mail."
+msgstr "Ne mogu obrisati direktorij '%1'."
+
+#: voice.UNABLE_TO_UNDELETE_VOICEMAIL
+#, fuzzy
+msgid "Unable to undelete voice mail."
+msgstr "Ne mogu obrisati direktorij '%1'."
+
+#: zclient.CLIENT_ERROR
+#, fuzzy
+msgid "A network service error has occurred (zclient)."
+msgstr "Interna greška servisa se desila"
+
+#: zclient.IO_ERROR
+#, fuzzy
+msgid "A network service error has occurred (zclient/io)."
+msgstr "Interna greška servisa se desila"
+
+#: ztaglib.TAG_EXCEPTION
+#, fuzzy
+msgid "A client error occurred. Please try again."
+msgstr "Došlo je do pogreške u toku posljednje transakcije."
+
+#: unknownError
+#, fuzzy
+msgid "An unknown error ({0}) has occurred."
+msgstr "Nepoznata greška."

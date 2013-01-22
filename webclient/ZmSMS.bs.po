@@ -1,0 +1,1713 @@
+#. #
+#. # ***** BEGIN LICENSE BLOCK *****
+#. # Zimbra Collaboration Suite Web Client
+#. # Copyright (C) 2010, 2011 Zimbra, Inc.
+#. # 
+#. # The contents of this file are subject to the Zimbra Public License
+#. # Version 1.3 ("License"); you may not use this file except in
+#. # compliance with the License.  You may obtain a copy of the License at
+#. # http://www.zimbra.com/license.
+#. # 
+#. # Software distributed under the License is distributed on an "AS IS"
+#. # basis, WITHOUT WARRANTY OF ANY KIND, either express or implied.
+#. # ***** END LICENSE BLOCK *****
+#. #
+#. extracted from ZmSMS.properties
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2013-01-21 20:02+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 1.9.0\n"
+
+
+#. # SMS/email gateway information from:
+#. #
+#. # http://en.wikipedia.org/wiki/List_of_SMS_gateways
+#. # http://it-souls.com/2009/11/email-to-sms-gateway-address/ 
+#. # DEFAULTS
+#: defaultRegionId
+#, fuzzy
+msgid "UnitedStates"
+msgstr "Sjedinjene Američke Države"
+
+#: defaultCarrierId
+#, fuzzy
+msgid "UnitedStates_ATTWireless"
+msgstr "Sjedinjene Američke Države"
+
+#. # REGIONS
+#. #
+#. # Each region is identified by a key of the form region_{regionId}
+#. # or region_{parentRegion}/{regionId}. Each region has a human-readable 
+#. # label and (optionally) an image, specified by adding the .label or
+#. # .image suffix, respectively.
+#: region_Africa.label
+msgid "Africa"
+msgstr "Afrika"
+
+#. #region_Africa.image = FlagNone
+#: region_Africa/Mauritius.label
+#, fuzzy
+msgid "Mauritius"
+msgstr ""
+"#-#-#-#-#  sheets-bs.po (calligra)  #-#-#-#-#\n"
+"Mauricijus\n"
+"#-#-#-#-#  libkexiv2-bs.po (libkexiv2)  #-#-#-#-#\n"
+"Mauricijius"
+
+#: region_Africa/Mauritius.image
+#, fuzzy
+msgid "FlagMU"
+msgstr "Zastava"
+
+#: region_Africa/SouthAfrica.label
+msgid "South Africa"
+msgstr "Južna Afrika"
+
+#: region_Africa/SouthAfrica.image
+#, fuzzy
+msgid "FlagZA"
+msgstr "Zastava"
+
+#: region_Asia.label
+msgid "Asia"
+msgstr "Azija"
+
+#. #region_Asia.image = FlagNone
+#: region_Asia/India.label
+msgid "भारत"
+msgstr ""
+
+#: region_Asia/India.image
+#, fuzzy
+msgid "FlagIN"
+msgstr "Zastava"
+
+#: region_Asia/Japan.label
+msgid "日本"
+msgstr ""
+
+#: region_Asia/Japan.image
+#, fuzzy
+msgid "FlagJP"
+msgstr "Zastava"
+
+#: region_Asia/Nepal.label
+msgid "नेपाल"
+msgstr ""
+
+#: region_Asia/Nepal.image
+#, fuzzy
+msgid "FlagNP"
+msgstr "Zastava"
+
+#: region_Asia/Singapore.label
+msgid "新加坡"
+msgstr ""
+
+#: region_Asia/Singapore.image
+#, fuzzy
+msgid "FlagSG"
+msgstr "Zastava"
+
+#: region_Asia/SriLanka.label
+msgid "ශ්‍රී ලංකාව"
+msgstr ""
+
+#: region_Asia/SriLanka.image
+#, fuzzy
+msgid "FlagLK"
+msgstr "Zastava"
+
+#: region_Australia.label
+msgid "Australia"
+msgstr "Australija"
+
+#: region_Australia.image
+#, fuzzy
+msgid "FlagAU"
+msgstr "Zastava"
+
+#: region_Caribbean.label
+msgid "Caribbean"
+msgstr "Karibi"
+
+#. #region_Caribbean.image = FlagNone
+#: region_Caribbean/PuertoRico.label
+#, fuzzy
+msgid "Puerto Rico"
+msgstr ""
+"#-#-#-#-#  sheets-bs.po (calligra)  #-#-#-#-#\n"
+"Porto Riko\n"
+"#-#-#-#-#  libkexiv2-bs.po (libkexiv2)  #-#-#-#-#\n"
+"Portoriko"
+
+#: region_Caribbean/PuertoRico.image
+#, fuzzy
+msgid "FlagPR"
+msgstr "Zastava"
+
+#: region_Caribbean/USVirginIslands.label
+#, fuzzy
+msgid "U.S. Virgin Islands"
+msgstr "Američka Djevičanska Ostrva"
+
+#: region_Caribbean/USVirginIslands.image
+#, fuzzy
+msgid "FlagVI"
+msgstr "Zastava"
+
+#: region_CentralAmerica.label
+#, fuzzy
+msgid "Central America"
+msgstr "Sjeverna i Srednja Amerika"
+
+#. #region_CentralAmerica.image = FlagNone
+#: region_CentralAmerica/CostaRica.label
+msgid "Costa Rica"
+msgstr "Kostarika"
+
+#: region_CentralAmerica/CostaRica.image
+#, fuzzy
+msgid "FlagCR"
+msgstr "Zastava"
+
+#: region_CentralAmerica/Mexico.label
+#, fuzzy
+msgid "México"
+msgstr "México"
+
+#: region_CentralAmerica/Mexico.image
+#, fuzzy
+msgid "FlagMX"
+msgstr "Zastava"
+
+#: region_CentralAmerica/Nicaragua.label
+msgid "Nicaragua"
+msgstr "Nikaragva"
+
+#: region_CentralAmerica/Nicaragua.image
+#, fuzzy
+msgid "FlagNI"
+msgstr "Zastava"
+
+#: region_Europe.label
+msgid "Europe"
+msgstr "Evropa"
+
+#: region_Europe.image
+#, fuzzy
+msgid "FlagEuropeanUnion"
+msgstr "Evropska Unija"
+
+#: region_Europe/Austria.label
+msgid "Österreich"
+msgstr ""
+
+#: region_Europe/Austria.image
+#, fuzzy
+msgid "FlagAT"
+msgstr "Zastava"
+
+#: region_Europe/Bulgaria.label
+msgid "България"
+msgstr ""
+
+#: region_Europe/Bulgaria.image
+#, fuzzy
+msgid "FlagBG"
+msgstr "Zastava"
+
+#: region_Europe/Croatia.label
+#, fuzzy
+msgid "Hrvatska"
+msgstr "Bratsk"
+
+#: region_Europe/Croatia.image
+#, fuzzy
+msgid "FlagHR"
+msgstr "Zastava"
+
+#: region_Europe/France.label
+msgid "France"
+msgstr "Francuska"
+
+#: region_Europe/France.image
+#, fuzzy
+msgid "FlagFR"
+msgstr "Zastava"
+
+#: region_Europe/Germany.label
+#, fuzzy
+msgid "Deutschland"
+msgstr "Ravnica"
+
+#: region_Europe/Germany.image
+#, fuzzy
+msgid "FlagDE"
+msgstr "Zastava"
+
+#: region_Europe/Ireland.label
+msgid "Ireland"
+msgstr "Irska"
+
+#: region_Europe/Ireland.image
+#, fuzzy
+msgid "FlagIE"
+msgstr "Zastava"
+
+#: region_Europe/Italy.label
+#, fuzzy
+msgid "Italia"
+msgstr "Italijanski"
+
+#: region_Europe/Italy.image
+#, fuzzy
+msgid "FlagIT"
+msgstr "Zastava"
+
+#: region_Europe/Moldova.label
+msgid "Moldova"
+msgstr "Moldavija"
+
+#: region_Europe/Moldova.image
+#, fuzzy
+msgid "FlagMD"
+msgstr "Zastava"
+
+#: region_Europe/Poland.label
+#, fuzzy
+msgid "Polska"
+msgstr "Polson"
+
+#: region_Europe/Poland.image
+#, fuzzy
+msgid "FlagPL"
+msgstr "Zastava"
+
+#: region_Europe/Spain.label
+#, fuzzy
+msgid "España"
+msgstr "Espanola"
+
+#: region_Europe/Spain.image
+#, fuzzy
+msgid "FlagES"
+msgstr "Zastava"
+
+#: region_Europe/Serbia.label
+#, fuzzy
+msgid "Srbija"
+msgstr "Cobija"
+
+#: region_Europe/Serbia.image
+#, fuzzy
+msgid "FlagRS"
+msgstr "Zastava"
+
+#: region_Europe/Switzerland.label
+#, fuzzy
+msgid "Schweiz"
+msgstr "Schwerin"
+
+#: region_Europe/Switzerland.image
+#, fuzzy
+msgid "FlagCH"
+msgstr "Zastava"
+
+#: region_Europe/UnitedKingdom.label
+#, fuzzy
+msgid "United Kingdom"
+msgstr ""
+"#-#-#-#-#  sheets-bs.po (calligra)  #-#-#-#-#\n"
+"Velika Britanija\n"
+"#-#-#-#-#  libkexiv2-bs.po (libkexiv2)  #-#-#-#-#\n"
+"Velika Britanija\n"
+"#-#-#-#-#  ksirk-bs.po (kdegames)  #-#-#-#-#\n"
+"Velika Britanija\n"
+"#-#-#-#-#  tellico-bs.po (tellico.po)  #-#-#-#-#\n"
+"Ujedinjeno Kraljevstvo"
+
+#: region_Europe/UnitedKingdom.image
+#, fuzzy
+msgid "FlagGB"
+msgstr "Zastava"
+
+#: region_NorthAmerica.label
+msgid "North America"
+msgstr "Sjeverna Amerika"
+
+#. #region_NorthAmerica.image = FlagNone
+#: region_NorthAmerica/Canada.label
+msgid "Canada"
+msgstr "Kanada"
+
+#: region_NorthAmerica/Canada.image
+#, fuzzy
+msgid "FlagCA"
+msgstr "Zastava"
+
+#: region_NorthAmerica/UnitedStates.label
+msgid "United States"
+msgstr "Sjedinjene Američke Države"
+
+#: region_NorthAmerica/UnitedStates.image
+#, fuzzy
+msgid "FlagUS"
+msgstr "Zastava"
+
+#: region_Satellite.label
+msgid "Satellite"
+msgstr "Satelit"
+
+#. #region_Satellite.image = FlagNone
+#: region_SouthAmerica.label
+msgid "South America"
+msgstr "Južna Amerika"
+
+#. #region_SouthAmerica.image = FlagNone
+#: region_SouthAmerica/Argentina.label
+msgid "Argentina"
+msgstr "Argentina"
+
+#: region_SouthAmerica/Argentina.image
+#, fuzzy
+msgid "FlagAR"
+msgstr "Zastava"
+
+#: region_SouthAmerica/Aruba.label
+msgid "Aruba"
+msgstr "Aruba"
+
+#: region_SouthAmerica/Aruba.image
+#, fuzzy
+msgid "FlagAW"
+msgstr "Zastava"
+
+#: region_SouthAmerica/Brazil.label
+#, fuzzy
+msgid "Brasil"
+msgstr "Brasilia"
+
+#: region_SouthAmerica/Brazil.image
+#, fuzzy
+msgid "FlagBR"
+msgstr "Zastava"
+
+#: region_SouthAmerica/Colombia.label
+msgid "Colombia"
+msgstr "Kolumbija"
+
+#: region_SouthAmerica/Colombia.image
+#, fuzzy
+msgid "FlagCO"
+msgstr "Zastava"
+
+#: region_SouthAmerica/Paraguay.label
+msgid "Paraguay"
+msgstr "Paragvaj"
+
+#: region_SouthAmerica/Paraguay.image
+#, fuzzy
+msgid "FlagPY"
+msgstr "Zastava"
+
+#: region_SouthAmerica/Peru.label
+msgid "Perú"
+msgstr ""
+
+#: region_SouthAmerica/Peru.image
+#, fuzzy
+msgid "FlagPE"
+msgstr "Zastava"
+
+#: region_SouthAmerica/Uruguay.label
+msgid "Uruguay"
+msgstr "Urugvaj"
+
+#: region_SouthAmerica/Uruguay.image
+#, fuzzy
+msgid "FlagUY"
+msgstr "Zastava"
+
+# #-#-#-#-#  kfontinst-bs.po (kfontinst)  #-#-#-#-#
+# >> @item Unknown foundry
+#: region_Unknown.label
+#, fuzzy
+msgid "Unknown"
+msgstr ""
+"#-#-#-#-#  PluginShape-bs.po (calligra)  #-#-#-#-#\n"
+"Nepoznato\n"
+"#-#-#-#-#  krita-bs.po (calligra)  #-#-#-#-#\n"
+"Nepoznato\n"
+"#-#-#-#-#  stage-bs.po (calligra)  #-#-#-#-#\n"
+"Nepoznat\n"
+"#-#-#-#-#  calligra-bs.po (calligra)  #-#-#-#-#\n"
+"Nepoznat\n"
+"#-#-#-#-#  planlibs-bs.po (calligra)  #-#-#-#-#\n"
+"Nepoznato\n"
+"#-#-#-#-#  kcmview1394-bs.po (kcmview1394)  #-#-#-#-#\n"
+"Nepoznat\n"
+"#-#-#-#-#  libksane-bs.po (kdegraphics)  #-#-#-#-#\n"
+"Nepoznato\n"
+"#-#-#-#-#  libplasma-bs.po (libplasma)  #-#-#-#-#\n"
+"Nepoznato\n"
+"#-#-#-#-#  libkcddb-bs.po (libkcddb)  #-#-#-#-#\n"
+"Nepoznato\n"
+"#-#-#-#-#  marble_qt-bs.po (kdeedu)  #-#-#-#-#\n"
+"Nepoznato\n"
+"#-#-#-#-#  libkpgp-bs.po (kdepim)  #-#-#-#-#\n"
+"Nepoznat\n"
+"#-#-#-#-#  kstars-bs.po (kstars)  #-#-#-#-#\n"
+"Nepoznato\n"
+"#-#-#-#-#  strigila_diff-bs.po (kdesdk)  #-#-#-#-#\n"
+"Nepoznato\n"
+"#-#-#-#-#  kompare-bs.po (kdesdk)  #-#-#-#-#\n"
+"Nepoznat\n"
+"#-#-#-#-#  akonadicontact-bs.po (kdepimlibs)  #-#-#-#-#\n"
+"Nepoznato\n"
+"#-#-#-#-#  kcmcomponentchooser-bs.po (kcmcomponentchooser)  #-#-#-#-#\n"
+"nepoznato\n"
+"#-#-#-#-#  kcmusb-bs.po (kcmusb)  #-#-#-#-#\n"
+"Nepoznato\n"
+"#-#-#-#-#  kwalletmanager-bs.po (kwalletmanager)  #-#-#-#-#\n"
+"Nepoznat\n"
+"#-#-#-#-#  kio4-bs.po (kio4)  #-#-#-#-#\n"
+"nepoznat\n"
+"#-#-#-#-#  kdelibs4-bs.po (kdelibs4)  #-#-#-#-#\n"
+"nepoznato\n"
+"#-#-#-#-#  kuser-bs.po (kuser)  #-#-#-#-#\n"
+"Nepoznato\n"
+"#-#-#-#-#  print-manager-bs.po (kde 49i410)  #-#-#-#-#\n"
+"Nepoznat\n"
+"#-#-#-#-#  plasma_applet_plasmaboard-bs.po (kdeplasma-addons)  #-#-#-#-#\n"
+"Nepoznato\n"
+"#-#-#-#-#  printer-applet-bs.po (kdeutils)  #-#-#-#-#\n"
+"Nepoznat\n"
+"#-#-#-#-#  kgoldrunner-bs.po (kdegames)  #-#-#-#-#\n"
+"Nepoznat\n"
+"#-#-#-#-#  plasma_engine_network-bs.po (kdebase-workspace)  #-#-#-#-#\n"
+"Nepoznat\n"
+"#-#-#-#-#  cervisia-bs.po (cervisia)  #-#-#-#-#\n"
+"Nepoznat\n"
+"#-#-#-#-#  umbrello-bs.po (umbrello)  #-#-#-#-#\n"
+"Nepoznat\n"
+"#-#-#-#-#  okular_poppler-bs.po (kdegraphics)  #-#-#-#-#\n"
+"Nepoznato\n"
+"#-#-#-#-#  kopete-bs.po (__kde__kdenetwork__kopete)  #-#-#-#-#\n"
+"Nepoznato\n"
+"#-#-#-#-#  libkdegames-bs.po (kdegames)  #-#-#-#-#\n"
+"Nepoznat\n"
+"#-#-#-#-#  knode-bs.po (knode)  #-#-#-#-#\n"
+"Nepoznato\n"
+"#-#-#-#-#  kmail-mobile-bs.po (kmail-mobile.po)  #-#-#-#-#\n"
+"Nepoznat\n"
+"#-#-#-#-#  kfontinst-bs.po (kfontinst)  #-#-#-#-#\n"
+"nepoznata\n"
+"#-#-#-#-#  phonon_gstreamer-bs.po (phonon)  #-#-#-#-#\n"
+"Nepoznat\n"
+"#-#-#-#-#  plasma_engine_soliddevice-bs.po (kdebase-workspace)  #-#-#-#-#\n"
+"Nepoznato\n"
+"#-#-#-#-#  kftpgrabber-bs.po (bosnianuniversetranslation)  #-#-#-#-#\n"
+"Nepoznat\n"
+"#-#-#-#-#  digikam-bs.po (digikam)  #-#-#-#-#\n"
+"Nepoznato\n"
+"#-#-#-#-#  kdenlive-bs.po (bosnianuniversetranslation)  #-#-#-#-#\n"
+"Nepoznat\n"
+"#-#-#-#-#  ktorrent-bs.po (ktorrent)  #-#-#-#-#\n"
+"Nepoznat\n"
+"#-#-#-#-#  rekonq-bs.po (rekonq)  #-#-#-#-#\n"
+"Nepoznata\n"
+"#-#-#-#-#  kmymoney-bs.po (kmymoney)  #-#-#-#-#\n"
+"Nepoznato\n"
+"#-#-#-#-#  kdevplatform-bs.po (kdevplatform)  #-#-#-#-#\n"
+"Nepoznato\n"
+"#-#-#-#-#  tellico-bs.po (tellico.po)  #-#-#-#-#\n"
+"Nepoznat\n"
+"#-#-#-#-#  k3b-bs.po (__kde__extragear-multimedia__k3b)  #-#-#-#-#\n"
+"Nepoznat\n"
+"#-#-#-#-#  libk3bdevice-bs.po (bosnianuniversetranslation)  #-#-#-#-#\n"
+"Nepoznati"
+
+#. #region_Unknown.image = FlagNone
+#. # CARRIERS
+#. #
+#. # Each carrier is identified by a key of the form carrier_{carrierId}
+#. # where carrierId is represented by {regionId}_{carrierName}. Each
+#. # carrier has a label and (optionally) an image, an email pattern, and
+#. # hint text, specified by the .label, .image, .pattern, or .hint
+#. # suffixes, respectively.
+#: carrier_Argentina_CTIMovil.label
+msgctxt "carrier_Argentina_CTIMovil.label"
+msgid "CTI Móvil"
+msgstr ""
+
+#: carrier_Argentina_CTIMovil.pattern
+msgid "{0}@sms.ctimovil.com.ar"
+msgstr ""
+
+#: carrier_Argentina_Movicom.label
+#, fuzzy
+msgid "Movicom"
+msgstr "Film"
+
+#: carrier_Argentina_Movicom.pattern
+msgid "{0}@movimensaje.com.ar"
+msgstr ""
+
+# #-#-#-#-#  kcm_pci-bs.po (kcm_pci)  #-#-#-#-#
+# >> @item:intable
+#: carrier_Argentina_Nextel.label
+#, fuzzy
+msgctxt "carrier_Argentina_Nextel.label"
+msgid "Nextel"
+msgstr ""
+"#-#-#-#-#  krita-bs.po (calligra)  #-#-#-#-#\n"
+"Sljedeći\n"
+"#-#-#-#-#  planlibs-bs.po (calligra)  #-#-#-#-#\n"
+"Sljed\n"
+"#-#-#-#-#  sheets-bs.po (calligra)  #-#-#-#-#\n"
+"Sljedeći\n"
+"#-#-#-#-#  kommander-bs.po (kdewebdev)  #-#-#-#-#\n"
+"Sljedeći\n"
+"#-#-#-#-#  libkremotecontrol-bs.po (kdeutils)  #-#-#-#-#\n"
+"Sljedeći\n"
+"#-#-#-#-#  kcm_pci-bs.po (kcm_pci)  #-#-#-#-#\n"
+"sljedeće\n"
+"#-#-#-#-#  gwenview-bs.po (kdegraphics)  #-#-#-#-#\n"
+"Sljedeća\n"
+"#-#-#-#-#  joystick-bs.po (kdebase-workspace)  #-#-#-#-#\n"
+"Sljedeće\n"
+"#-#-#-#-#  marble-bs.po (kdeedu)  #-#-#-#-#\n"
+"Sljedeći\n"
+"#-#-#-#-#  parley-bs.po (kdeedu)  #-#-#-#-#\n"
+"Sljedeće\n"
+"#-#-#-#-#  plasma_runner_audioplayercontrol-bs.po (kdeplasma-addons)  #-#-#-"
+"#-#\n"
+"Sljedeća\n"
+"#-#-#-#-#  kopete-bs.po (__kde__kdenetwork__kopete)  #-#-#-#-#\n"
+"Sljedeće\n"
+"#-#-#-#-#  kdeqt-bs.po (kdeqt)  #-#-#-#-#\n"
+"Sljedeće\n"
+"#-#-#-#-#  ktorrent-bs.po (ktorrent)  #-#-#-#-#\n"
+"Sljedeće\n"
+"#-#-#-#-#  kdevplatform-bs.po (kdevplatform)  #-#-#-#-#\n"
+"Sljedeći\n"
+"#-#-#-#-#  k3b-bs.po (__kde__extragear-multimedia__k3b)  #-#-#-#-#\n"
+"Sljedeće\n"
+"#-#-#-#-#  kdevstandardoutputview-bs.po (kdevplatform)  #-#-#-#-#\n"
+"Sljedeća"
+
+#: carrier_Argentina_Nextel.pattern
+msgid "TwoWay.11{0}@nextel.net.ar"
+msgstr ""
+
+#: carrier_Argentina_Personal.label
+#, fuzzy
+msgid "Personal"
+msgstr ""
+"#-#-#-#-#  kaddressbook-mobile-bs.po (kaddressbook-mobile.po)  #-#-#-#-#\n"
+"Lično\n"
+"#-#-#-#-#  kabc-bs.po (kdepimlibs)  #-#-#-#-#\n"
+"Lično\n"
+"#-#-#-#-#  kfontinst-bs.po (kfontinst)  #-#-#-#-#\n"
+"Lični\n"
+"#-#-#-#-#  tellico-bs.po (tellico.po)  #-#-#-#-#\n"
+"Lično"
+
+#: carrier_Argentina_Personal.pattern
+msgid "{0}@alertas.personal.com.ar"
+msgstr ""
+
+#: carrier_Aruba_SetaMobile.label
+#, fuzzy
+msgid "Setar Mobile"
+msgstr "Okteta Mobile"
+
+#: carrier_Aruba_SetaMobile.pattern
+msgid "{0}@mas.aw"
+msgstr ""
+
+#: carrier_Aruba_SetaMobile.hint
+msgid "Prefix domestic number with 297."
+msgstr ""
+
+#: carrier_Austria_TMobile.label
+#, fuzzy
+msgctxt "carrier_Austria_TMobile.label"
+msgid "T-Mobile"
+msgstr "Mobilno"
+
+#: carrier_Austria_TMobile.pattern
+msgid "{0}@sms.t-mobile.at"
+msgstr ""
+
+#: carrier_Brazil_Claro.label
+#, fuzzy
+msgctxt "carrier_Brazil_Claro.label"
+msgid "Claro"
+msgstr "Clark"
+
+#: carrier_Brazil_Claro.pattern
+msgid "{0}@clarotorpedo.com.br"
+msgstr ""
+
+#: carrier_Brazil_Vivo.label
+msgid "Vivo"
+msgstr ""
+
+#: carrier_Brazil_Vivo.pattern
+msgid "{0}@torpedoemail.com.br"
+msgstr ""
+
+# #-#-#-#-#  kdelibs4-bs.po (kdelibs4)  #-#-#-#-#
+# >> @title:column Alternative shortcut
+#: carrier_Bulgaria_Globul.label
+#, fuzzy
+msgid "Globul"
+msgstr ""
+"#-#-#-#-#  kdelibs4-bs.po (kdelibs4)  #-#-#-#-#\n"
+"globalna\n"
+"#-#-#-#-#  kmplot-bs.po (kmplot)  #-#-#-#-#\n"
+"Globalno\n"
+"#-#-#-#-#  kdevplatform-bs.po (kdevplatform)  #-#-#-#-#\n"
+"Globalno"
+
+#: carrier_Bulgaria_Globul.pattern
+msgid "35989{0}@sms.globul.bg"
+msgstr ""
+
+#: carrier_Bulgaria_Mobiltel.label
+#, fuzzy
+msgid "Mobiltel"
+msgstr "Mobilno"
+
+#: carrier_Bulgaria_Mobiltel.pattern
+msgid "35988{0}@sms.mtel.net"
+msgstr ""
+
+#: carrier_Bulgaria_Vivacom.label
+#, fuzzy
+msgid "Vivacom"
+msgstr "Tacoma"
+
+#: carrier_Bulgaria_Vivacom.pattern
+msgid "35987{0}@sms.vivacom.bg"
+msgstr ""
+
+#: carrier_Canada_BellMobilityAndSoloMobile.label
+msgid "Bell Mobility & Solo Mobile"
+msgstr ""
+
+#: carrier_Canada_BellMobilityAndSoloMobile.pattern
+msgid "{0}@txt.bell.ca"
+msgstr ""
+
+#: carrier_Canada_Fido.label
+msgid "Fido"
+msgstr ""
+
+#: carrier_Canada_Fido.pattern
+msgid "{0}@fido.ca"
+msgstr ""
+
+#: carrier_Canada_KoodoMobile.label
+#, fuzzy
+msgid "Koodo Mobile"
+msgstr "Mobilno"
+
+#: carrier_Canada_KoodoMobile.pattern
+msgctxt "carrier_Canada_KoodoMobile.pattern"
+msgid "{0}@msg.telus.com"
+msgstr ""
+
+#: carrier_Canada_MTSMobility.label
+#, fuzzy
+msgid "MTS Mobility"
+msgstr "DOS usaglašenost"
+
+#: carrier_Canada_MTSMobility.pattern
+msgid "{0}@text.mtsmobility.com"
+msgstr ""
+
+#: carrier_Canada_PCTelecom.label
+#, fuzzy
+msgid "PC Telecom"
+msgstr "Telekomjuter"
+
+#: carrier_Canada_PCTelecom.pattern
+msgid "{0}@mobiletxt.ca"
+msgstr ""
+
+#: carrier_Canada_RogersWireless.label
+#, fuzzy
+msgid "Rogers Wireless"
+msgstr "Bežično"
+
+#: carrier_Canada_RogersWireless.pattern
+msgid "{0}@pcs.rogers.com"
+msgstr ""
+
+#: carrier_Canada_SaskTel.label
+msgid "SaskTel"
+msgstr ""
+
+#: carrier_Canada_SaskTel.pattern
+msgid "{0}@sms.sasktel.com"
+msgstr ""
+
+#: carrier_Canada_TBaytel.label
+msgid "TBaytel"
+msgstr ""
+
+#: carrier_Canada_TBaytel.pattern
+msgid "{0}@tbayteltxt.net"
+msgstr ""
+
+#: carrier_Canada_TelusMobility.label
+msgid "Telus Mobility"
+msgstr ""
+
+#: carrier_Canada_TelusMobility.pattern
+msgctxt "carrier_Canada_TelusMobility.pattern"
+msgid "{0}@msg.telus.com"
+msgstr ""
+
+#: carrier_Canada_VirginMobile.label
+#, fuzzy
+msgctxt "carrier_Canada_VirginMobile.label"
+msgid "Virgin Mobile"
+msgstr "Virginia"
+
+#: carrier_Canada_VirginMobile.pattern
+msgid "{0}@vmobile.ca"
+msgstr ""
+
+#: carrier_Colombia_Comcel.label
+msgid "Comcel"
+msgstr ""
+
+#: carrier_Colombia_Comcel.pattern
+msgid "{0}@comcel.com.co"
+msgstr ""
+
+#: carrier_Colombia_Movistar.label
+#, fuzzy
+msgid "Movistar"
+msgstr "Bonavista"
+
+#: carrier_Colombia_Movistar.pattern
+msgid "{0}@movistar.com.co"
+msgstr ""
+
+#: carrier_Colombia_Tigo.label
+msgid "Tigo"
+msgstr ""
+
+#: carrier_Colombia_Tigo.pattern
+msgid "{0}@sms.tigo.com.co"
+msgstr ""
+
+#: carrier_CostaRica_ICE.label
+#, fuzzy
+msgid "ICE"
+msgstr "IE"
+
+#: carrier_CostaRica_ICE.pattern
+msgid "{0}@ice.cr"
+msgstr ""
+
+#: carrier_Croatia_TMobile.label
+#, fuzzy
+msgctxt "carrier_Croatia_TMobile.label"
+msgid "T-Mobile"
+msgstr "Mobilno"
+
+#: carrier_Croatia_TMobile.pattern
+msgid "{0}@sms.t-mobile.hr"
+msgstr ""
+
+#: carrier_Croatia_TMobile.hint
+msgid "Prefix domestic numbers with 385."
+msgstr ""
+
+#: carrier_Europe_FreebieSMS.label
+#, fuzzy
+msgid "Freebie SMS"
+msgstr "slobodna swap"
+
+#: carrier_Europe_FreebieSMS.pattern
+msgid "{0}@smssturen.com"
+msgstr ""
+
+#: carrier_France_BouyguesTelecom.label
+msgid "Bouygues Télécom"
+msgstr ""
+
+#: carrier_France_BouyguesTelecom.pattern
+msgid "{0}@mms.bouyguestelecom.fr"
+msgstr ""
+
+#: carrier_Germany_LOX24.label
+msgid "LOX24"
+msgstr ""
+
+#: carrier_Germany_SMSExpert.label
+#, fuzzy
+msgid "SMS-Expert"
+msgstr ""
+"#-#-#-#-#  kwatchgnupg-bs.po (kdepim)  #-#-#-#-#\n"
+"Ekspert\n"
+"#-#-#-#-#  kleopatra-bs.po (kgpgcertmanager)  #-#-#-#-#\n"
+"Ekspert\n"
+"#-#-#-#-#  kjumpingcube-bs.po (kdegames)  #-#-#-#-#\n"
+"Stručnjak"
+
+#: carrier_India_Aircel.label
+#, fuzzy
+msgid "Aircel"
+msgstr "Paket"
+
+#: carrier_India_Aircel.pattern
+msgid "{0}@aircel.co.in"
+msgstr ""
+
+#: carrier_India_AirtelAndhraPradesh.label
+#, fuzzy
+msgid "Airtel (Andhra Pradesh)"
+msgstr "Nije Andhra Pradesh"
+
+#: carrier_India_AirtelAndhraPradesh.pattern
+#, fuzzy
+msgid "{0}@airtelap.com"
+msgstr "@gmail.com"
+
+#: carrier_India_AirtelKarnataka.label
+#, fuzzy
+msgid "Airtel (Karnataka)"
+msgstr "Karnataka"
+
+#: carrier_India_AirtelKarnataka.pattern
+#, fuzzy
+msgid "{0}@airtelkk.com"
+msgstr "@gmail.com"
+
+#: carrier_India_Loop.label
+msgid "Loop"
+msgstr "Petlja"
+
+#: carrier_India_Loop.pattern
+msgid "{0}@bplmobile.com"
+msgstr ""
+
+#: carrier_Japan_AUKDDI.label
+msgid "AU by KDDI"
+msgstr ""
+
+#: carrier_Japan_AUKDDI.pattern
+msgid "{0}@ezweb.ne.jp"
+msgstr ""
+
+#: carrier_Japan_NTTDoCoMo.label
+msgid "NTT DoCoMo"
+msgstr ""
+
+#: carrier_Japan_NTTDoCoMo.pattern
+msgid "{0}@docomo.ne.jp"
+msgstr ""
+
+#: carrier_Japan_VodafoneChuugoku.label
+msgid "Vodafone (Chuugoku)"
+msgstr ""
+
+#: carrier_Japan_VodafoneChuugoku.pattern
+msgid "{0}@n.vodafone.ne.jp"
+msgstr ""
+
+#: carrier_Japan_VodafoneHokkaido.label
+msgid "Vodafone (Hokkaido)"
+msgstr ""
+
+#: carrier_Japan_VodafoneHokkaido.pattern
+msgid "{0}@d.vodafone.ne.jp"
+msgstr ""
+
+#: carrier_Japan_VodafoneHokuriko.label
+msgid "Vodafone (Hokuriko)"
+msgstr ""
+
+#: carrier_Japan_VodafoneHokuriko.pattern
+msgid "{0}@r.vodafone.ne.jp"
+msgstr ""
+
+#: carrier_Japan_VodafoneKansai.label
+msgid "Vodafone (Kansai)"
+msgstr ""
+
+#: carrier_Japan_VodafoneKansai.pattern
+msgid "{0}@k.vodafone.ne.jp"
+msgstr ""
+
+#: carrier_Japan_VodafoneKantoKoushin.label
+msgid "Vodafone (Kanto/Koushin)"
+msgstr ""
+
+#: carrier_Japan_VodafoneKantoKoushin.pattern
+msgid "{0}@t.vodafone.ne.jp"
+msgstr ""
+
+#: carrier_Japan_VodafoneKyuushuOkinawa.label
+msgid "Vodafone (Kyuushu/Okinawa)"
+msgstr ""
+
+#: carrier_Japan_VodafoneKyuushuOkinawa.pattern
+msgid "{0}@q.vodafone.ne.jp"
+msgstr ""
+
+#: carrier_Japan_VodafoneShikoku.label
+msgid "Vodafone (Shikoku)"
+msgstr ""
+
+#: carrier_Japan_VodafoneShikoku.pattern
+msgid "{0}@s.vodafone.ne.jp"
+msgstr ""
+
+#: carrier_Japan_VodafoneTouhoku.label
+msgid "Vodafone (Touhoku)"
+msgstr ""
+
+#: carrier_Japan_VodafoneTouhoku.pattern
+msgid "{0}@h.vodafone.ne.jp"
+msgstr ""
+
+#: carrier_Japan_VodafoneToukai.label
+msgid "Vodafone (Toukai)"
+msgstr ""
+
+#: carrier_Japan_VodafoneToukai.pattern
+msgid "{0}@c.vodafone.ne.jp"
+msgstr ""
+
+#: carrier_Japan_Willcom.label
+#, fuzzy
+msgid "Willcom"
+msgstr "Willcox"
+
+#: carrier_Japan_Willcom.pattern
+msgid "{0}@pdx.ne.jp"
+msgstr ""
+
+#: carrier_Japan_Willcomdi.label
+#, fuzzy
+msgid "Willcom (di)"
+msgstr "Willcox"
+
+#: carrier_Japan_Willcomdi.pattern
+msgid "{0}@di.pdx.ne.jp"
+msgstr ""
+
+#: carrier_Japan_Willcomdj.label
+#, fuzzy
+msgid "Willcom (dj)"
+msgstr "Willcox"
+
+#: carrier_Japan_Willcomdj.pattern
+msgid "{0}@dj.pdx.ne.jp"
+msgstr ""
+
+#: carrier_Japan_Willcomdk.label
+#, fuzzy
+msgid "Willcom (dk)"
+msgstr "Willcox"
+
+#: carrier_Japan_Willcomdk.pattern
+msgid "{0}@dk.pdx.ne.jp"
+msgstr ""
+
+#: carrier_Mauritius_Emtel.label
+msgid "Emtel"
+msgstr ""
+
+#: carrier_Mauritius_Emtel.pattern
+msgid "{0}@emtelworld.net"
+msgstr ""
+
+# #-#-#-#-#  kcm_pci-bs.po (kcm_pci)  #-#-#-#-#
+# >> @item:intable
+#: carrier_Mexico_Nextel.label
+#, fuzzy
+msgctxt "carrier_Mexico_Nextel.label"
+msgid "Nextel"
+msgstr ""
+"#-#-#-#-#  krita-bs.po (calligra)  #-#-#-#-#\n"
+"Sljedeći\n"
+"#-#-#-#-#  planlibs-bs.po (calligra)  #-#-#-#-#\n"
+"Sljed\n"
+"#-#-#-#-#  sheets-bs.po (calligra)  #-#-#-#-#\n"
+"Sljedeći\n"
+"#-#-#-#-#  kommander-bs.po (kdewebdev)  #-#-#-#-#\n"
+"Sljedeći\n"
+"#-#-#-#-#  libkremotecontrol-bs.po (kdeutils)  #-#-#-#-#\n"
+"Sljedeći\n"
+"#-#-#-#-#  kcm_pci-bs.po (kcm_pci)  #-#-#-#-#\n"
+"sljedeće\n"
+"#-#-#-#-#  gwenview-bs.po (kdegraphics)  #-#-#-#-#\n"
+"Sljedeća\n"
+"#-#-#-#-#  joystick-bs.po (kdebase-workspace)  #-#-#-#-#\n"
+"Sljedeće\n"
+"#-#-#-#-#  marble-bs.po (kdeedu)  #-#-#-#-#\n"
+"Sljedeći\n"
+"#-#-#-#-#  parley-bs.po (kdeedu)  #-#-#-#-#\n"
+"Sljedeće\n"
+"#-#-#-#-#  plasma_runner_audioplayercontrol-bs.po (kdeplasma-addons)  #-#-#-"
+"#-#\n"
+"Sljedeća\n"
+"#-#-#-#-#  kopete-bs.po (__kde__kdenetwork__kopete)  #-#-#-#-#\n"
+"Sljedeće\n"
+"#-#-#-#-#  kdeqt-bs.po (kdeqt)  #-#-#-#-#\n"
+"Sljedeće\n"
+"#-#-#-#-#  ktorrent-bs.po (ktorrent)  #-#-#-#-#\n"
+"Sljedeće\n"
+"#-#-#-#-#  kdevplatform-bs.po (kdevplatform)  #-#-#-#-#\n"
+"Sljedeći\n"
+"#-#-#-#-#  k3b-bs.po (__kde__extragear-multimedia__k3b)  #-#-#-#-#\n"
+"Sljedeće\n"
+"#-#-#-#-#  kdevstandardoutputview-bs.po (kdevplatform)  #-#-#-#-#\n"
+"Sljedeća"
+
+#: carrier_Mexico_Nextel.pattern
+msgid "{0}@msgnextel.com.mx"
+msgstr ""
+
+#: carrier_Moldova_Eventis.label
+#, fuzzy
+msgid "Eventis"
+msgstr "Događaji"
+
+#: carrier_Moldova_Moldcell.label
+#, fuzzy
+msgid "Moldcell"
+msgstr "Molde"
+
+#: carrier_Moldova_OrangeMoldova.label
+#, fuzzy
+msgid "Orange Moldova"
+msgstr "Moldavija"
+
+# #-#-#-#-#  ksysguard-bs.po (ksysguard)  #-#-#-#-#
+# >> @title:column
+#: carrier_Moldova_Unite.label
+#, fuzzy
+msgid "Unité"
+msgstr "jedinica"
+
+#: carrier_Nepal_MeroMobile.label
+#, fuzzy
+msgid "Mero Mobile"
+msgstr "Mobilno"
+
+#: carrier_Nepal_MeroMobile.pattern
+msgid "977{0}@sms.spicenepal.com"
+msgstr ""
+
+#: carrier_Nepal_NepalTelecom.label
+msgid "Nepal Telecom"
+msgstr ""
+
+#: carrier_Nicaragua_Claro.label
+#, fuzzy
+msgctxt "carrier_Nicaragua_Claro.label"
+msgid "Claro"
+msgstr "Clark"
+
+#: carrier_Nicaragua_Claro.pattern
+msgid "{0}@ideasclaro-ca.com"
+msgstr ""
+
+#: carrier_Paraguay_CTIMovil.label
+msgctxt "carrier_Paraguay_CTIMovil.label"
+msgid "CTI Móvil"
+msgstr ""
+
+#: carrier_Peru_Claro.label
+#, fuzzy
+msgctxt "carrier_Peru_Claro.label"
+msgid "Claro"
+msgstr "Clark"
+
+#: carrier_Poland_OrangePolska.label
+#, fuzzy
+msgid "Orange Polska"
+msgstr "Orange Park"
+
+#: carrier_Poland_OrangePolska.pattern
+#, fuzzy
+msgid "{0}@orange.pl"
+msgstr "narandžasta"
+
+#: carrier_Poland_Plus.label
+msgid "Plus"
+msgstr "Plus"
+
+#: carrier_Poland_Plus.pattern
+msgid "+{0}@text.plusgsm.pl"
+msgstr ""
+
+#: carrier_Poland_Plus.hint
+msgid "Prefix domestic number with 48."
+msgstr ""
+
+#: carrier_PuertoRico_Claro.label
+#, fuzzy
+msgctxt "carrier_PuertoRico_Claro.label"
+msgid "Claro"
+msgstr "Clark"
+
+#: carrier_PuertoRico_Claro.pattern
+msgid "{0}@vtexto.com"
+msgstr ""
+
+#: carrier_PuertoRico_CentennialWireless.label
+#, fuzzy
+msgctxt "carrier_PuertoRico_CentennialWireless.label"
+msgid "Centennial Wireless"
+msgstr "Omogući bežične"
+
+#: carrier_PuertoRico_CentennialWireless.pattern
+#, fuzzy
+msgctxt "carrier_PuertoRico_CentennialWireless.pattern"
+msgid "{0}@cwemail.com"
+msgstr "@gmail.com"
+
+#: carrier_PuertoRico_TracFone.label
+#, fuzzy
+msgctxt "carrier_PuertoRico_TracFone.label"
+msgid "TracFone"
+msgstr ""
+"#-#-#-#-#  kcachegrind-bs.po (kcachegrind)  #-#-#-#-#\n"
+"Trag\n"
+"#-#-#-#-#  libknetworkmanager-bs.po (bosnianuniversetranslation)  #-#-#-#-#\n"
+"trag"
+
+#: carrier_PuertoRico_TracFone.pattern
+msgctxt "carrier_PuertoRico_TracFone.pattern"
+msgid "{0}@mmst5.tracfone.com"
+msgstr ""
+
+#: carrier_Satellite_Iridium.label
+msgid "Iridium"
+msgstr "Iridijum"
+
+#: carrier_Satellite_Iridium.pattern
+msgid "{0}@msg.iridium.com"
+msgstr ""
+
+#: carrier_Satellite_Thuraya.label
+#, fuzzy
+msgid "Thuraya"
+msgstr "Četvrtak"
+
+#: carrier_Serbia_TelekomSrbija.label
+#, fuzzy
+msgid "Telekom Srbija"
+msgstr "Teleorman"
+
+#: carrier_Singapore_Starhub.label
+msgid "Starhub Enterprise Messaging Solution"
+msgstr ""
+
+#: carrier_Singapore_Starhub.pattern
+msgid "{0}@starhub-enterprisemessaging.com"
+msgstr ""
+
+#: carrier_SouthAfrica_MTN.label
+#, fuzzy
+msgid "MTN"
+msgstr "TN"
+
+#: carrier_SouthAfrica_MTN.pattern
+msgid "{0}@sms.co.za"
+msgstr ""
+
+#: carrier_SouthAfrica_Vodacom.label
+#, fuzzy
+msgid "Vodacom"
+msgstr "Tacoma"
+
+#: carrier_SouthAfrica_Vodacom.pattern
+msgid "{0}@voda.co.za"
+msgstr ""
+
+#: carrier_SriLanka_Mobitel.label
+#, fuzzy
+msgid "Mobitel"
+msgstr "Mobilno"
+
+#: carrier_SriLanka_Mobitel.pattern
+msgid "{0}@sms.mobitel.lk"
+msgstr ""
+
+#: carrier_Switzerland_Orange.label
+msgid "Orange"
+msgstr "Narandžasta"
+
+#: carrier_Switzerland_SunriseCommunications.label
+#, fuzzy
+msgid "Sunrise Communications"
+msgstr "Komunikacije"
+
+#: carrier_Switzerland_SunriseCommunications.pattern
+msgid "{0}@gsm.sunrise.ch"
+msgstr ""
+
+#: carrier_Switzerland_Swisscom.label
+#, fuzzy
+msgid "Swisscom"
+msgstr ""
+"#-#-#-#-#  sheets-bs.po (calligra)  #-#-#-#-#\n"
+"Švajcarski franak\n"
+"#-#-#-#-#  kmymoney-bs.po (kmymoney)  #-#-#-#-#\n"
+"Švicarski franak"
+
+#: carrier_UnitedKingdom_Aql.label
+#, fuzzy
+msgid "aql"
+msgstr "al"
+
+#: carrier_UnitedKingdom_Aql.pattern
+msgid "{0}@text.aql.com"
+msgstr ""
+
+#: carrier_UnitedKingdom_Txtlocal.label
+#, fuzzy
+msgid "Txtlocal"
+msgstr "lokalna"
+
+#: carrier_UnitedKingdom_Txtlocal.pattern
+msgid "{0}@txtlocal.co.uk"
+msgstr ""
+
+#: carrier_Uruguay_CTIMovil.label
+msgctxt "carrier_Uruguay_CTIMovil.label"
+msgid "CTI Móvil"
+msgstr ""
+
+#: carrier_UnitedStates_AlaskaCommicationSystems.label
+#, fuzzy
+msgid "Alaska Communication Systems"
+msgstr "Komunikacijski sateliti"
+
+#: carrier_UnitedStates_AlaskaCommicationSystems.pattern
+msgid "{0}@msg.acsalaska.com"
+msgstr ""
+
+#: carrier_UnitedStates_AlltellWireless.label
+#, fuzzy
+msgid "Alltel Wireless"
+msgstr "Bežično"
+
+#: carrier_UnitedStates_AlltellWireless.pattern
+msgid "{0}@text.wireless.alltel.com"
+msgstr ""
+
+#: carrier_UnitedStates_ATTWireless.label
+#, fuzzy
+msgid "AT&T Wireless"
+msgstr "Bežično"
+
+#: carrier_UnitedStates_ATTWireless.pattern
+msgid "{0}@txt.att.net"
+msgstr ""
+
+#. #carrier_UnitedStates_ATTMMode.label = AT&T (MMode)
+#. #carrier_UnitedStates_ATTMMode.pattern = {0}@mmode.com
+#. #carrier_UnitedStates_ATTCingularMe.label = AT&T (Cingular Me)
+#. #carrier_UnitedStates_ATTMyCingular.label = AT&T (My Cingular)
+#. #carrier_UnitedStates_ATTMobility.label = AT&T Mobility
+#. #carrier_UnitedStates_ATTMobility.pattern = {0}@txt.att.net
+#: carrier_UnitedStates_ATTEnterprisePaging.label
+#, fuzzy
+msgid "AT&T Enterprise Paging"
+msgstr "&Preduzetnička zaglavlja"
+
+#: carrier_UnitedStates_ATTEnterprisePaging.pattern
+msgid "{0}@page.att.net"
+msgstr ""
+
+#: carrier_UnitedStates_ATTGlobalSmartMessagingSuite.label
+#, fuzzy
+msgid "AT&T Global Smart Messaging Suite"
+msgstr "meni globalnog stanja"
+
+#: carrier_UnitedStates_ATTGlobalSmartMessagingSuite.pattern
+msgid "{0}@sms.smartmessagingsuite.com"
+msgstr ""
+
+#: carrier_UnitedStates_BoostMobile.label
+#, fuzzy
+msgid "Boost Mobile"
+msgstr "Mobilno"
+
+#: carrier_UnitedStates_BoostMobile.pattern
+msgid "{0}@myboostmobile.com"
+msgstr ""
+
+#: carrier_UnitedStates_CellularSouth.label
+#, fuzzy
+msgid "Cellular South"
+msgstr "Mobilni telefon"
+
+#: carrier_UnitedStates_CellularSouth.pattern
+msgid "{0}@csouth1.com"
+msgstr ""
+
+#: carrier_UnitedStates_CentennialWireless.label
+#, fuzzy
+msgctxt "carrier_UnitedStates_CentennialWireless.label"
+msgid "Centennial Wireless"
+msgstr "Omogući bežične"
+
+#: carrier_UnitedStates_CentennialWireless.pattern
+#, fuzzy
+msgctxt "carrier_UnitedStates_CentennialWireless.pattern"
+msgid "{0}@cwemail.com"
+msgstr "@gmail.com"
+
+#: carrier_UnitedStates_CincinnatiBell.label
+#, fuzzy
+msgid "Cincinnati Bell"
+msgstr "Cincinnati"
+
+#: carrier_UnitedStates_CincinnatiBell.pattern
+msgid "{0}@gocbw.com"
+msgstr ""
+
+#: carrier_UnitedStates_CingularDobson.label
+#, fuzzy
+msgid "Cingular (Dobson)"
+msgstr "Ugaono rastojanje"
+
+#: carrier_UnitedStates_CingularDobson.pattern
+msgid "{0}@mobile.celloneusa.com"
+msgstr ""
+
+#: carrier_UnitedStates_CingularGoPhone.label
+#, fuzzy
+msgid "Cingular (GoPhone)"
+msgstr "Telefon u automobilu"
+
+#: carrier_UnitedStates_CingularGoPhone.pattern
+msgid "{0}@cingulartext.com"
+msgstr ""
+
+#: carrier_UnitedStates_CingularPostpaid.label
+#, fuzzy
+msgid "Cingular (Postpaid)"
+msgstr "Trostrana piramida"
+
+#: carrier_UnitedStates_CingularPostpaid.pattern
+msgid "{0}@cingular.com"
+msgstr ""
+
+#: carrier_UnitedStates_Cricket.label
+#, fuzzy
+msgid "Cricket"
+msgstr "Klickety"
+
+#: carrier_UnitedStates_Cricket.pattern
+msgid "{0}@sms.mycricket.com"
+msgstr ""
+
+#: carrier_UnitedStates_GeneralCommunicationsInc.label
+#, fuzzy
+msgid "General Communications Inc."
+msgstr ""
+"#-#-#-#-#  klipper-bs.po (klipper)  #-#-#-#-#\n"
+"Opće konfigurisanje\n"
+"#-#-#-#-#  kontact-bs.po (kontact)  #-#-#-#-#\n"
+"Opšta podešavanja\n"
+"#-#-#-#-#  krdc-bs.po (krdc)  #-#-#-#-#\n"
+"Opće konfigurisanje"
+
+#: carrier_UnitedStates_GeneralCommunicationsInc.pattern
+msgid "{0}@mobile.gci.net"
+msgstr ""
+
+#: carrier_UnitedStates_GoldenStateCellular.label
+msgid "Golden State Cellular"
+msgstr ""
+
+#: carrier_UnitedStates_GoldenStateCellular.pattern
+msgid "{0}@gscsms.com"
+msgstr ""
+
+#: carrier_UnitedStates_Helio.label
+#, fuzzy
+msgid "Helio"
+msgstr "Helios"
+
+#: carrier_UnitedStates_Helio.pattern
+msgid "{0}@myhelio.com"
+msgstr ""
+
+#: carrier_UnitedStates_MetroPCS.label
+#, fuzzy
+msgid "MetroPCS"
+msgstr "Retro"
+
+#: carrier_UnitedStates_MetroPCS.pattern
+msgid "{0}@mymetropcs.com"
+msgstr ""
+
+# #-#-#-#-#  kcm_pci-bs.po (kcm_pci)  #-#-#-#-#
+# >> @item:intable
+#: carrier_UnitedStates_Nextel.label
+#, fuzzy
+msgctxt "carrier_UnitedStates_Nextel.label"
+msgid "Nextel"
+msgstr ""
+"#-#-#-#-#  krita-bs.po (calligra)  #-#-#-#-#\n"
+"Sljedeći\n"
+"#-#-#-#-#  planlibs-bs.po (calligra)  #-#-#-#-#\n"
+"Sljed\n"
+"#-#-#-#-#  sheets-bs.po (calligra)  #-#-#-#-#\n"
+"Sljedeći\n"
+"#-#-#-#-#  kommander-bs.po (kdewebdev)  #-#-#-#-#\n"
+"Sljedeći\n"
+"#-#-#-#-#  libkremotecontrol-bs.po (kdeutils)  #-#-#-#-#\n"
+"Sljedeći\n"
+"#-#-#-#-#  kcm_pci-bs.po (kcm_pci)  #-#-#-#-#\n"
+"sljedeće\n"
+"#-#-#-#-#  gwenview-bs.po (kdegraphics)  #-#-#-#-#\n"
+"Sljedeća\n"
+"#-#-#-#-#  joystick-bs.po (kdebase-workspace)  #-#-#-#-#\n"
+"Sljedeće\n"
+"#-#-#-#-#  marble-bs.po (kdeedu)  #-#-#-#-#\n"
+"Sljedeći\n"
+"#-#-#-#-#  parley-bs.po (kdeedu)  #-#-#-#-#\n"
+"Sljedeće\n"
+"#-#-#-#-#  plasma_runner_audioplayercontrol-bs.po (kdeplasma-addons)  #-#-#-"
+"#-#\n"
+"Sljedeća\n"
+"#-#-#-#-#  kopete-bs.po (__kde__kdenetwork__kopete)  #-#-#-#-#\n"
+"Sljedeće\n"
+"#-#-#-#-#  kdeqt-bs.po (kdeqt)  #-#-#-#-#\n"
+"Sljedeće\n"
+"#-#-#-#-#  ktorrent-bs.po (ktorrent)  #-#-#-#-#\n"
+"Sljedeće\n"
+"#-#-#-#-#  kdevplatform-bs.po (kdevplatform)  #-#-#-#-#\n"
+"Sljedeći\n"
+"#-#-#-#-#  k3b-bs.po (__kde__extragear-multimedia__k3b)  #-#-#-#-#\n"
+"Sljedeće\n"
+"#-#-#-#-#  kdevstandardoutputview-bs.po (kdevplatform)  #-#-#-#-#\n"
+"Sljedeća"
+
+#: carrier_UnitedStates_Nextel.pattern
+msgid "{0}@messaging.nextel.com"
+msgstr ""
+
+#: carrier_UnitedStates_PioneerCellular.label
+#, fuzzy
+msgid "Pioneer Cellular"
+msgstr "Zatvorske ćelije"
+
+#: carrier_UnitedStates_PioneerCellular.pattern
+msgid "{0}@zsend.com"
+msgstr ""
+
+#: carrier_UnitedStates_PocketWireless.label
+#, fuzzy
+msgid "Pocket Wireless"
+msgstr "Bežično"
+
+#: carrier_UnitedStates_PocketWireless.pattern
+msgid "{0}@sms.pocket.com"
+msgstr ""
+
+#: carrier_UnitedStates_QwestWireless.label
+#, fuzzy
+msgid "Qwest Wireless"
+msgstr "Bežično"
+
+#: carrier_UnitedStates_QwestWireless.pattern
+msgid "{0}@qwestmp.com"
+msgstr ""
+
+#: carrier_UnitedStates_SouthCentralCommunications.label
+#, fuzzy
+msgid "South Central Communications"
+msgstr "Komunikacije"
+
+#: carrier_UnitedStates_SouthCentralCommunications.pattern
+msgctxt "carrier_UnitedStates_SouthCentralCommunications.pattern"
+msgid "{0}@rinasms.com"
+msgstr ""
+
+#: carrier_UnitedStates_SprintPCS.label
+msgid "Sprint (PCS)"
+msgstr ""
+
+#: carrier_UnitedStates_SprintPCS.pattern
+msgid "{0}@messaging.sprintpcs.com"
+msgstr ""
+
+#: carrier_UnitedStates_SprintPCSIWireless.label
+msgid "i-wireless (Spring PCS)"
+msgstr ""
+
+#: carrier_UnitedStates_SprintPCSIWireless.pattern
+msgid "{0}@iwirelesshometext.com"
+msgstr ""
+
+#: carrier_UnitedStates_SprintNextel.label
+#, fuzzy
+msgid "Sprint (Nextel)"
+msgstr "Štampaj %1 bilješku"
+
+#: carrier_UnitedStates_SprintNextel.pattern
+msgid "{0}@page.nextel.com"
+msgstr ""
+
+#: carrier_UnitedStates_StraightTalk.label
+#, fuzzy
+msgid "Straight Talk"
+msgstr "Prava"
+
+#: carrier_UnitedStates_StraightTalk.pattern
+msgid "{0}@VTEXT.COM"
+msgstr ""
+
+#: carrier_UnitedStates_Suncom.label
+#, fuzzy
+msgid "Suncom"
+msgstr "Suncheon"
+
+#: carrier_UnitedStates_Suncom.pattern
+msgid "{0}@tms.suncom.com"
+msgstr ""
+
+#: carrier_UnitedStates_SyringaWireless.label
+#, fuzzy
+msgid "Syringa Wireless"
+msgstr "Bežično"
+
+#: carrier_UnitedStates_SyringaWireless.pattern
+msgctxt "carrier_UnitedStates_SyringaWireless.pattern"
+msgid "{0}@rinasms.com"
+msgstr ""
+
+#: carrier_UnitedStates_TMobile.label
+#, fuzzy
+msgctxt "carrier_UnitedStates_TMobile.label"
+msgid "T-Mobile"
+msgstr "Mobilno"
+
+#: carrier_UnitedStates_TMobile.pattern
+msgid "{0}@tmomail.net"
+msgstr ""
+
+#: carrier_UnitedStates_TMobileIWireless.label
+msgid "i wireless (T-Mobile)"
+msgstr ""
+
+#: carrier_UnitedStates_TMobileIWireless.pattern
+msgid "{0}.iws@iwspcs.net"
+msgstr ""
+
+#: carrier_UnitedStates_Unicel.label
+#, fuzzy
+msgid "Unicel"
+msgstr ""
+"#-#-#-#-#  kmouth-bs.po (kmouth)  #-#-#-#-#\n"
+"Unicode\n"
+"#-#-#-#-#  kile-bs.po (kile)  #-#-#-#-#\n"
+"Unikod"
+
+#: carrier_UnitedStates_Unicel.pattern
+msgid "{0}@utext.com"
+msgstr ""
+
+#: carrier_UnitedStates_USCellular.label
+#, fuzzy
+msgid "US Cellular"
+msgstr "Mobilni telefon"
+
+#: carrier_UnitedStates_USCellular.pattern
+msgid "{0}@email.uscc.net"
+msgstr ""
+
+#: carrier_UnitedStates_Verizon.label
+#, fuzzy
+msgid "Verizon"
+msgstr "Horizont"
+
+#: carrier_UnitedStates_Verizon.pattern
+msgid "{0}@vtext.com"
+msgstr ""
+
+#: carrier_UnitedStates_Viaero.label
+msgid "Viaero"
+msgstr ""
+
+#: carrier_UnitedStates_Viaero.pattern
+msgid "{0}@viaerosms.com"
+msgstr ""
+
+#: carrier_UnitedStates_VirginMobile.label
+#, fuzzy
+msgctxt "carrier_UnitedStates_VirginMobile.label"
+msgid "Virgin Mobile"
+msgstr "Virginia"
+
+#: carrier_UnitedStates_VirginMobile.pattern
+msgid "{0}@yrmobl.com"
+msgstr ""
+
+#: carrier_UnitedStates_TracFone.label
+#, fuzzy
+msgctxt "carrier_UnitedStates_TracFone.label"
+msgid "TracFone"
+msgstr ""
+"#-#-#-#-#  kcachegrind-bs.po (kcachegrind)  #-#-#-#-#\n"
+"Trag\n"
+"#-#-#-#-#  libknetworkmanager-bs.po (bosnianuniversetranslation)  #-#-#-#-#\n"
+"trag"
+
+#: carrier_UnitedStates_TracFone.pattern
+msgctxt "carrier_UnitedStates_TracFone.pattern"
+msgid "{0}@mmst5.tracfone.com"
+msgstr ""
+
+#: carrier_USVirginIslands_CentennialWireless.label
+#, fuzzy
+msgctxt "carrier_USVirginIslands_CentennialWireless.label"
+msgid "Centennial Wireless"
+msgstr "Omogući bežične"
+
+#: carrier_USVirginIslands_CentennialWireless.pattern
+#, fuzzy
+msgctxt "carrier_USVirginIslands_CentennialWireless.pattern"
+msgid "{0}@cwemail.com"
+msgstr "@gmail.com"
+
+#: carrier_USVirginIslands_TracFone.label
+#, fuzzy
+msgctxt "carrier_USVirginIslands_TracFone.label"
+msgid "TracFone"
+msgstr ""
+"#-#-#-#-#  kcachegrind-bs.po (kcachegrind)  #-#-#-#-#\n"
+"Trag\n"
+"#-#-#-#-#  libknetworkmanager-bs.po (bosnianuniversetranslation)  #-#-#-#-#\n"
+"trag"
+
+#: carrier_USVirginIslands_TracFone.pattern
+msgctxt "carrier_USVirginIslands_TracFone.pattern"
+msgid "{0}@mmst5.tracfone.com"
+msgstr ""

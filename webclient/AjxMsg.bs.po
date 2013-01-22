@@ -1,0 +1,2350 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2013-01-21 19:53+0200\n"
+"PO-Revision-Date: 2013-01-21 20:57+0100\n"
+"Last-Translator: Vedran Ljubović <vljubovic@smartnet.ba>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 1.9.0\n"
+
+#. #
+#. # ***** BEGIN LICENSE BLOCK *****
+#. # Zimbra Collaboration Suite Web Client
+#. # Copyright (C) 2005, 2006, 2007, 2008, 2009, 2010 Zimbra, Inc.
+#. #
+#. # The contents of this file are subject to the Zimbra Public License
+#. # Version 1.3 ("License"); you may not use this file except in
+#. # compliance with the License.  You may obtain a copy of the License at
+#. # http://www.zimbra.com/license.
+#. #
+#. # Software distributed under the License is distributed on an "AS IS"
+#. # basis, WITHOUT WARRANTY OF ANY KIND, either express or implied.
+#. # ***** END LICENSE BLOCK *****
+#. #
+#. # formats for calendar use
+#: formatCalDate
+msgid "EEE, MMM d"
+msgstr "EEE, MMM d"
+
+#: formatCalDateLong
+msgid "EEEE, MMMM d"
+msgstr "EEEE, MMMM d"
+
+#: formatCalDateFull
+msgid "EEEE, MMMM d, yyyy"
+msgstr "EEEE, MMMM d, yyyy"
+
+#. # {0} is the hour number, 0-24; {1} is a date object with the same hour
+#: formatCalHour
+msgid "{0,choice,0#Midnight|1#{1,time,h a}|12#Noon|13#{1,time,h a}|24#Midnight}"
+msgstr "{0,choice,0#Midnight|1#{1,time,h a}|12#Noon|13#{1,time,h a}|24#Midnight}"
+
+#: formatCalDay
+msgid "M/d "
+msgstr "M/d "
+
+#: formatCalMonth
+#, fuzzy
+msgid "MMMM yyyy"
+msgstr "MMMM_yyyy"
+
+#: formatShortCalMonth
+#, fuzzy
+msgid "MMM yyyy"
+msgstr "MMMM_yyyy"
+
+#. # additional formats for date formatting
+#: formatDateMediumNoYear
+msgid "MMM dd "
+msgstr "MMM dd "
+
+#: formatWordyDateToday
+msgid "'Today,' h:mm a"
+msgstr "'Danas,' h:mm a"
+
+#: formatWordyDateYesterday
+#, fuzzy
+msgid "'Yesterday,' h:mm a"
+msgstr "Juče %1"
+
+#: formatWordyDate
+#, fuzzy
+msgid "EEE, M/d/yy, h:mm a"
+msgstr "M/d/yyyy h:mm AP"
+
+#. # date parsing information
+#: dateParsing2DigitStartYear
+msgid "1936"
+msgstr "1936"
+
+#. # list formatting information
+#. # NOTE: The separators end with a literal Unicode space character!
+#: listSeparator
+msgid ", "
+msgstr ", "
+
+#: listSeparatorLast
+msgid " and "
+msgstr " i "
+
+#. # for detecting quoted email msg content
+#: forwardedMessage
+#, fuzzy
+msgid "Forwarded Message"
+msgstr "Proslijedi poruku"
+
+#: origMsg
+msgid "Original Message"
+msgstr "Originalna poruka"
+
+#: colorBlue
+msgid "#5b9bf2"
+msgstr "#5b9bf2"
+
+#: colorCyan
+msgid "#43eded"
+msgstr "#43eded"
+
+#: colorGray
+msgid "#bebebe"
+msgstr "#bebebe"
+
+#: colorGreen
+msgid "#6acb9e"
+msgstr "#6acb9e"
+
+#: colorOrange
+msgid "#fdbc55"
+msgstr "#fdbc55"
+
+#: colorPink
+msgid "#fe98d3"
+msgstr "#fe98d3"
+
+#: colorPurple
+msgid "#ba86e5"
+msgstr "#ba86e5"
+
+#: colorRed
+msgid "#f66666"
+msgstr "#f66666"
+
+#: colorYellow
+msgid "#f8fa33"
+msgstr "#f8fa33"
+
+#: colorsCustom
+msgid "Custom Colors"
+msgstr "Posebne boje"
+
+#: colorsStandard
+#, fuzzy
+msgid "Standard Colors"
+msgstr "Bojee kalendara"
+
+#: colorsUseDefault
+#, fuzzy
+msgid "Use Default Color"
+msgstr "Koristi zadane boje"
+
+#. # relative time keywords
+#: ago
+#, fuzzy
+msgid "ago"
+msgstr "Bago"
+
+#: day
+msgid "day"
+msgstr "dan"
+
+#: days
+#, fuzzy
+msgid "days"
+msgstr ""
+"#-#-#-#-#  kalzium-bs.po (kalzium)  #-#-#-#-#\n"
+"dani\n"
+"#-#-#-#-#  kstars-bs.po (kstars)  #-#-#-#-#\n"
+"dana\n"
+"#-#-#-#-#  plasma_applet_nuclearCalculator-bs.po (kdeedu)  #-#-#-#-#\n"
+"dana"
+
+#: hour
+msgid "hour"
+msgstr "sat"
+
+#: hours
+msgid "hours"
+msgstr "sati"
+
+#: minute
+#, fuzzy
+msgid "minute"
+msgstr "minuta"
+
+#: minutes
+#, fuzzy
+msgid "minutes"
+msgstr ""
+"#-#-#-#-#  kalzium-bs.po (kalzium)  #-#-#-#-#\n"
+"minute\n"
+"#-#-#-#-#  ktimer-bs.po (ktimer)  #-#-#-#-#\n"
+"minuta\n"
+"#-#-#-#-#  akonadi_davgroupware_resource-bs.po (akonadi_davgroupware_resource.po)  #-#-#-#-#\n"
+"minuta\n"
+"#-#-#-#-#  parley-bs.po (kdeedu)  #-#-#-#-#\n"
+"minute\n"
+"#-#-#-#-#  plasma_applet_nuclearCalculator-bs.po (kdeedu)  #-#-#-#-#\n"
+"minuta\n"
+"#-#-#-#-#  libakonadi-bs.po (libakonadi)  #-#-#-#-#\n"
+"minuta\n"
+"#-#-#-#-#  kmymoney-bs.po (kmymoney)  #-#-#-#-#\n"
+"minute"
+
+#: month
+#, fuzzy
+msgid "month"
+msgstr ""
+"#-#-#-#-#  kexi-bs.po (calligra)  #-#-#-#-#\n"
+"mjesec\n"
+"#-#-#-#-#  kstars-bs.po (kstars)  #-#-#-#-#\n"
+"mj."
+
+#: months
+#, fuzzy
+msgid "months"
+msgstr ""
+"#-#-#-#-#  kexi-bs.po (calligra)  #-#-#-#-#\n"
+"mjesec\n"
+"#-#-#-#-#  kstars-bs.po (kstars)  #-#-#-#-#\n"
+"mj."
+
+#: second
+#, fuzzy
+msgid "second"
+msgstr "sekunda"
+
+#: seconds
+#, fuzzy
+msgid "seconds"
+msgstr ""
+"#-#-#-#-#  kalzium-bs.po (kalzium)  #-#-#-#-#\n"
+"sekunde\n"
+"#-#-#-#-#  kstars-bs.po (kstars)  #-#-#-#-#\n"
+"sekundi\n"
+"#-#-#-#-#  ktimer-bs.po (ktimer)  #-#-#-#-#\n"
+"sekundi\n"
+"#-#-#-#-#  kpartsaver-bs.po (kpartsaver)  #-#-#-#-#\n"
+"sekundi\n"
+"#-#-#-#-#  plasma_applet_nuclearCalculator-bs.po (kdeedu)  #-#-#-#-#\n"
+"sekundi\n"
+"#-#-#-#-#  kdenlive-bs.po (bosnianuniversetranslation)  #-#-#-#-#\n"
+"sekunde"
+
+#: week
+#, fuzzy
+msgid "week"
+msgstr ""
+"#-#-#-#-#  CalendarTool-bs.po (calligra)  #-#-#-#-#\n"
+"sedmica\n"
+"#-#-#-#-#  kstars-bs.po (kstars)  #-#-#-#-#\n"
+"sedm."
+
+#: weeks
+#, fuzzy
+msgid "weeks"
+msgstr ""
+"#-#-#-#-#  kalzium-bs.po (kalzium)  #-#-#-#-#\n"
+"sedmice\n"
+"#-#-#-#-#  plasma_applet_nuclearCalculator-bs.po (kdeedu)  #-#-#-#-#\n"
+"danma"
+
+#: year
+#, fuzzy
+msgid "year"
+msgstr ""
+"#-#-#-#-#  kexi-bs.po (calligra)  #-#-#-#-#\n"
+"godina\n"
+"#-#-#-#-#  kstars-bs.po (kstars)  #-#-#-#-#\n"
+"god.\n"
+"#-#-#-#-#  plasma_applet_nuclearCalculator-bs.po (kdeedu)  #-#-#-#-#\n"
+"godina"
+
+#: years
+msgid "years"
+msgstr "godine"
+
+#: yesterday
+msgid "yesterday"
+msgstr "juče"
+
+#: today
+msgid "today"
+msgstr "danas"
+
+#: tomorrow
+msgid "tomorrow"
+msgstr "sutra"
+
+#: cancel
+#, fuzzy
+msgid "Cancel"
+msgstr ""
+"#-#-#-#-#  kexi-bs.po (calligra)  #-#-#-#-#\n"
+"Otkaži\n"
+"#-#-#-#-#  TextShape-bs.po (calligra)  #-#-#-#-#\n"
+"Odustani\n"
+"#-#-#-#-#  krita-bs.po (calligra)  #-#-#-#-#\n"
+"Odustani\n"
+"#-#-#-#-#  sheets-bs.po (calligra)  #-#-#-#-#\n"
+"Odustani\n"
+"#-#-#-#-#  marble_qt-bs.po (kdeedu)  #-#-#-#-#\n"
+"Odustani\n"
+"#-#-#-#-#  ktouch-bs.po (ktouch)  #-#-#-#-#\n"
+"Odustani\n"
+"#-#-#-#-#  activitymanager_uihandler_declarative-bs.po (kde 49i410)  #-#-#-#-#\n"
+"Odustani\n"
+"#-#-#-#-#  kstars-bs.po (kstars)  #-#-#-#-#\n"
+"Odustani\n"
+"#-#-#-#-#  ksirk-bs.po (kdegames)  #-#-#-#-#\n"
+"Otkaži\n"
+"#-#-#-#-#  kleopatra-bs.po (kgpgcertmanager)  #-#-#-#-#\n"
+"Odustani\n"
+"#-#-#-#-#  tasks-mobile-bs.po (tasks-mobile.po)  #-#-#-#-#\n"
+"Otkaži\n"
+"#-#-#-#-#  system-config-printer-kde-bs.po (system-config-printer-kde)  #-#-#-#-#\n"
+"Odustani\n"
+"#-#-#-#-#  kdelibs4-bs.po (kdelibs4)  #-#-#-#-#\n"
+"Odustani\n"
+"#-#-#-#-#  kaddressbook-mobile-bs.po (kaddressbook-mobile.po)  #-#-#-#-#\n"
+"Otkaži\n"
+"#-#-#-#-#  plasma_applet_webbrowser-bs.po (plasma_applet_webbrowser)  #-#-#-#-#\n"
+"Odustani\n"
+"#-#-#-#-#  jovie-bs.po (kdeaccessibility)  #-#-#-#-#\n"
+"Odustani\n"
+"#-#-#-#-#  print-manager-bs.po (kde 49i410)  #-#-#-#-#\n"
+"Odustani\n"
+"#-#-#-#-#  gwenview-bs.po (kdegraphics)  #-#-#-#-#\n"
+"Odustani\n"
+"#-#-#-#-#  printer-applet-bs.po (kdeutils)  #-#-#-#-#\n"
+"Otkaži\n"
+"#-#-#-#-#  katexmltools-bs.po (katexmltools)  #-#-#-#-#\n"
+"Odustani\n"
+"#-#-#-#-#  marble-bs.po (kdeedu)  #-#-#-#-#\n"
+"Odustani\n"
+"#-#-#-#-#  lskat-bs.po (kdegames)  #-#-#-#-#\n"
+"Otkaži\n"
+"#-#-#-#-#  plasma_applet_trash-bs.po (kdebase-workspace)  #-#-#-#-#\n"
+"Odustani\n"
+"#-#-#-#-#  kscreenlocker_greet-bs.po (kde 49i410)  #-#-#-#-#\n"
+"Odustani\n"
+"#-#-#-#-#  kget-bs.po (kget)  #-#-#-#-#\n"
+"Odustani\n"
+"#-#-#-#-#  searchbarplugin-bs.po (searchbarplugin)  #-#-#-#-#\n"
+"Odustani\n"
+"#-#-#-#-#  korganizer-mobile-bs.po (korganizer-mobile.po)  #-#-#-#-#\n"
+"Otkaži\n"
+"#-#-#-#-#  kopete-bs.po (__kde__kdenetwork__kopete)  #-#-#-#-#\n"
+"Odustani\n"
+"#-#-#-#-#  plasma_package_org.kde.desktop.activitymanager-bs.po (bosnianuniversetranslation)  #-#-#-#-#\n"
+"Poništi\n"
+"#-#-#-#-#  ark-bs.po (ark)  #-#-#-#-#\n"
+"Odustani\n"
+"#-#-#-#-#  kmail-mobile-bs.po (kmail-mobile.po)  #-#-#-#-#\n"
+"Odustani\n"
+"#-#-#-#-#  libkdepimmobileui-bs.po (libkdepimmobileui.po)  #-#-#-#-#\n"
+"Odustani\n"
+"#-#-#-#-#  libakonadi-bs.po (libakonadi)  #-#-#-#-#\n"
+"Odustani\n"
+"#-#-#-#-#  kdeqt-bs.po (kdeqt)  #-#-#-#-#\n"
+"Odustani\n"
+"#-#-#-#-#  kcmkamera-bs.po (kcmkamera)  #-#-#-#-#\n"
+"Odustani\n"
+"#-#-#-#-#  kuiserver-bs.po (kuiserver)  #-#-#-#-#\n"
+"Odustani\n"
+"#-#-#-#-#  digikam-bs.po (digikam)  #-#-#-#-#\n"
+"Odustani\n"
+"#-#-#-#-#  ktorrent-bs.po (ktorrent)  #-#-#-#-#\n"
+"Odustani\n"
+"#-#-#-#-#  kdevcpp-bs.po (kdevelop)  #-#-#-#-#\n"
+"Odustani\n"
+"#-#-#-#-#  kdevquickopen-bs.po (kdevplatform)  #-#-#-#-#\n"
+"Odustani\n"
+"#-#-#-#-#  kmymoney-bs.po (kmymoney)  #-#-#-#-#\n"
+"Otkaži\n"
+"#-#-#-#-#  tellico-bs.po (tellico.po)  #-#-#-#-#\n"
+"Otkaži\n"
+"#-#-#-#-#  muon-discover-bs.po (bosnianuniversetranslation)  #-#-#-#-#\n"
+"Otkaži\n"
+"#-#-#-#-#  k3b-bs.po (__kde__extragear-multimedia__k3b)  #-#-#-#-#\n"
+"Poništi\n"
+"#-#-#-#-#  kcm_ktp_accounts-bs.po (bosnianuniversetranslation)  #-#-#-#-#\n"
+"Odustani\n"
+"#-#-#-#-#  kdevgdb-bs.po (kdevelop)  #-#-#-#-#\n"
+"Odustani\n"
+"#-#-#-#-#  ktpchat-bs.po (bosnianuniversetranslation)  #-#-#-#-#\n"
+"Odustani\n"
+"#-#-#-#-#  ktp-adiumxtra-protocol-handler-bs.po (bosnianuniversetranslation)  #-#-#-#-#\n"
+"Poništi"
+
+#: detail
+msgid "Detail"
+msgstr "Detalji"
+
+#: dismiss
+msgid "Dismiss"
+msgstr "Odbaci"
+
+#: no
+msgid "No"
+msgstr "Ne"
+
+#. # bug fix 3004
+#: noResults
+msgid "No results found."
+msgstr "Bez rezultata."
+
+#: ok
+#, fuzzy
+msgid "OK"
+msgstr ""
+"#-#-#-#-#  kalzium-bs.po (kalzium)  #-#-#-#-#\n"
+"U redu\n"
+"#-#-#-#-#  libplasma-bs.po (libplasma)  #-#-#-#-#\n"
+"U redu\n"
+"#-#-#-#-#  klinkstatus-bs.po (kdewebdev)  #-#-#-#-#\n"
+"U redu\n"
+"#-#-#-#-#  ksirk-bs.po (kdegames)  #-#-#-#-#\n"
+"U redu\n"
+"#-#-#-#-#  libkcal-bs.po (libkcal)  #-#-#-#-#\n"
+"U redu\n"
+"#-#-#-#-#  tasks-mobile-bs.po (tasks-mobile.po)  #-#-#-#-#\n"
+"U redu\n"
+"#-#-#-#-#  system-config-printer-kde-bs.po (system-config-printer-kde)  #-#-#-#-#\n"
+"U redu\n"
+"#-#-#-#-#  kaddressbook-mobile-bs.po (kaddressbook-mobile.po)  #-#-#-#-#\n"
+"U redu\n"
+"#-#-#-#-#  plasma_applet_webbrowser-bs.po (plasma_applet_webbrowser)  #-#-#-#-#\n"
+"U redu\n"
+"#-#-#-#-#  akonadi_microblog_resource-bs.po (kdepim-runtime)  #-#-#-#-#\n"
+"OK\n"
+"#-#-#-#-#  marble-bs.po (kdeedu)  #-#-#-#-#\n"
+"U redu\n"
+"#-#-#-#-#  lskat-bs.po (kdegames)  #-#-#-#-#\n"
+"U redu\n"
+"#-#-#-#-#  kalgebra-bs.po (kdeedu)  #-#-#-#-#\n"
+"U redu\n"
+"#-#-#-#-#  umbrello-bs.po (umbrello)  #-#-#-#-#\n"
+"U redu\n"
+"#-#-#-#-#  searchbarplugin-bs.po (searchbarplugin)  #-#-#-#-#\n"
+"U redu\n"
+"#-#-#-#-#  korganizer-mobile-bs.po (korganizer-mobile.po)  #-#-#-#-#\n"
+"U redu\n"
+"#-#-#-#-#  keditbookmarks-bs.po (keditbookmarks)  #-#-#-#-#\n"
+"U redu\n"
+"#-#-#-#-#  kmail-mobile-bs.po (kmail-mobile.po)  #-#-#-#-#\n"
+"U redu\n"
+"#-#-#-#-#  libkdepimmobileui-bs.po (libkdepimmobileui.po)  #-#-#-#-#\n"
+"U redu\n"
+"#-#-#-#-#  ksysguard-bs.po (ksysguard)  #-#-#-#-#\n"
+"U redu\n"
+"#-#-#-#-#  webarchiver-bs.po (webarchiver)  #-#-#-#-#\n"
+"U redu\n"
+"#-#-#-#-#  kdeqt-bs.po (kdeqt)  #-#-#-#-#\n"
+"U redu\n"
+"#-#-#-#-#  kftpgrabber-bs.po (bosnianuniversetranslation)  #-#-#-#-#\n"
+"U redu\n"
+"#-#-#-#-#  digikam-bs.po (digikam)  #-#-#-#-#\n"
+"OK\n"
+"#-#-#-#-#  kmymoney-bs.po (kmymoney)  #-#-#-#-#\n"
+"u redu\n"
+"#-#-#-#-#  libktorrent-bs.po (libktorrent)  #-#-#-#-#\n"
+"U redu\n"
+"#-#-#-#-#  kdevgdb-bs.po (kdevelop)  #-#-#-#-#\n"
+"U redu\n"
+"#-#-#-#-#  ktp-adiumxtra-protocol-handler-bs.po (bosnianuniversetranslation)  #-#-#-#-#\n"
+"U redu"
+
+#: yes
+msgid "Yes"
+msgstr "Da"
+
+#: addAll
+msgid "Add All"
+msgstr "Dodaj sve"
+
+#: add
+#, fuzzy
+msgid "Add"
+msgstr ""
+"#-#-#-#-#  calligra-defaulttools-bs.po (calligra)  #-#-#-#-#\n"
+"Dodaj\n"
+"#-#-#-#-#  TableShape-bs.po (calligra)  #-#-#-#-#\n"
+"Dodaj\n"
+"#-#-#-#-#  calligra-bs.po (calligra)  #-#-#-#-#\n"
+"Dodaj\n"
+"#-#-#-#-#  calligrafilters-bs.po (calligra)  #-#-#-#-#\n"
+"Dodaj\n"
+"#-#-#-#-#  planlibs-bs.po (calligra)  #-#-#-#-#\n"
+"Dodaj\n"
+"#-#-#-#-#  sheets-bs.po (calligra)  #-#-#-#-#\n"
+"Dodaj\n"
+"#-#-#-#-#  plasma_applet_icontasks-bs.po (bosnianuniversetranslation)  #-#-#-#-#\n"
+"Dodaj\n"
+"#-#-#-#-#  libmailcommon-bs.po (libmailcommon.po)  #-#-#-#-#\n"
+"Dodaj\n"
+"#-#-#-#-#  klinkstatus-bs.po (kdewebdev)  #-#-#-#-#\n"
+"Dodaj\n"
+"#-#-#-#-#  kate-ctags-plugin-bs.po (kate-ctags-plugin)  #-#-#-#-#\n"
+"Dodaj\n"
+"#-#-#-#-#  kcachegrind-bs.po (kcachegrind)  #-#-#-#-#\n"
+"Dodaj\n"
+"#-#-#-#-#  kstars-bs.po (kstars)  #-#-#-#-#\n"
+"Dodaj\n"
+"#-#-#-#-#  ktesnippets_editor-bs.po (ktesnippets_editor)  #-#-#-#-#\n"
+"Dodaj\n"
+"#-#-#-#-#  ksirk-bs.po (kdegames)  #-#-#-#-#\n"
+"Dodaj\n"
+"#-#-#-#-#  akonadicontact-bs.po (kdepimlibs)  #-#-#-#-#\n"
+"Dodaj\n"
+"#-#-#-#-#  kleopatra-bs.po (kgpgcertmanager)  #-#-#-#-#\n"
+"Dodaj\n"
+"#-#-#-#-#  kimagemapeditor-bs.po (kdewebdev)  #-#-#-#-#\n"
+"Dodaj\n"
+"#-#-#-#-#  system-config-printer-kde-bs.po (system-config-printer-kde)  #-#-#-#-#\n"
+"Dodaj\n"
+"#-#-#-#-#  kdelibs4-bs.po (kdelibs4)  #-#-#-#-#\n"
+"Dodaj\n"
+"#-#-#-#-#  messageviewer_text_xdiff_plugin-bs.po (messageviewer_text_xdiff_plugin.po)  #-#-#-#-#\n"
+"Dodaj\n"
+"#-#-#-#-#  kcmkeyboard-bs.po (kcmkeyboard)  #-#-#-#-#\n"
+"Dodaj\n"
+"#-#-#-#-#  messageviewer_text_calendar_plugin-bs.po (messageviewer_text_calendar_plugin.po)  #-#-#-#-#\n"
+"Dodaj\n"
+"#-#-#-#-#  kaddressbook-mobile-bs.po (kaddressbook-mobile.po)  #-#-#-#-#\n"
+"Dodaj\n"
+"#-#-#-#-#  kuser-bs.po (kuser)  #-#-#-#-#\n"
+"Dodaj\n"
+"#-#-#-#-#  akonadi_davgroupware_resource-bs.po (akonadi_davgroupware_resource.po)  #-#-#-#-#\n"
+"Dodaj\n"
+"#-#-#-#-#  cantor-bs.po (kdeedu)  #-#-#-#-#\n"
+"Dodaj\n"
+"#-#-#-#-#  pairs-bs.po (bosnianuniversetranslation)  #-#-#-#-#\n"
+"Dodaj\n"
+"#-#-#-#-#  cervisia-bs.po (cervisia)  #-#-#-#-#\n"
+"Dodaj\n"
+"#-#-#-#-#  parley-bs.po (kdeedu)  #-#-#-#-#\n"
+"Dodaj\n"
+"#-#-#-#-#  konsole-bs.po (konsole)  #-#-#-#-#\n"
+"Dodaj\n"
+"#-#-#-#-#  konqueror-bs.po (konqueror)  #-#-#-#-#\n"
+"Dodaj\n"
+"#-#-#-#-#  kwin_clients-bs.po (kwin_clients)  #-#-#-#-#\n"
+"Dodaj\n"
+"#-#-#-#-#  kopete-bs.po (__kde__kdenetwork__kopete)  #-#-#-#-#\n"
+"Dodaj\n"
+"#-#-#-#-#  kmouth-bs.po (kmouth)  #-#-#-#-#\n"
+"Dodaj\n"
+"#-#-#-#-#  akonadi_google_resource-bs.po (bosnianuniversetranslation)  #-#-#-#-#\n"
+"Dodaj\n"
+"#-#-#-#-#  libkdepimmobileui-bs.po (libkdepimmobileui.po)  #-#-#-#-#\n"
+"Saberi\n"
+"#-#-#-#-#  libtaskmanager-bs.po (kdebase-workspace)  #-#-#-#-#\n"
+"Dodaj\n"
+"#-#-#-#-#  messageviewer_text_vcard_plugin-bs.po (messageviewer_text_vcard_plugin.po)  #-#-#-#-#\n"
+"Dodaj\n"
+"#-#-#-#-#  libincidenceeditors-bs.po (libincidenceeditors.po)  #-#-#-#-#\n"
+"Dodati\n"
+"#-#-#-#-#  kcmkamera-bs.po (kcmkamera)  #-#-#-#-#\n"
+"Dodaj\n"
+"#-#-#-#-#  kwlan-bs.po (bosnianuniversetranslation)  #-#-#-#-#\n"
+"Dodaj\n"
+"#-#-#-#-#  ktorrent-bs.po (ktorrent)  #-#-#-#-#\n"
+"Dodaj\n"
+"#-#-#-#-#  rekonq-bs.po (rekonq)  #-#-#-#-#\n"
+"Dodaj\n"
+"#-#-#-#-#  kdevqthelp-bs.po (kdevelop)  #-#-#-#-#\n"
+"Dodaj\n"
+"#-#-#-#-#  kmymoney-bs.po (kmymoney)  #-#-#-#-#\n"
+"Dodaj\n"
+"#-#-#-#-#  kdevplatform-bs.po (kdevplatform)  #-#-#-#-#\n"
+"Dodaj\n"
+"#-#-#-#-#  kile-bs.po (kile)  #-#-#-#-#\n"
+"Dodaj\n"
+"#-#-#-#-#  kdevcustombuildsystem-bs.po (kdevcustombuildsystem.po)  #-#-#-#-#\n"
+"Dodaj\n"
+"#-#-#-#-#  k3b-bs.po (__kde__extragear-multimedia__k3b)  #-#-#-#-#\n"
+"Dodaj\n"
+"#-#-#-#-#  konversation-bs.po (konversation)  #-#-#-#-#\n"
+"Dodaj\n"
+"#-#-#-#-#  kdevcmake-bs.po (kdevelop)  #-#-#-#-#\n"
+"Dodaj"
+
+#: remove
+msgid "Remove"
+msgstr "Ukloni"
+
+#: removeAll
+msgid "Remove All"
+msgstr "Ukloni sve"
+
+#: select
+#, fuzzy
+msgid "Select"
+msgstr ""
+"#-#-#-#-#  TextShape-bs.po (calligra)  #-#-#-#-#\n"
+"Odaberi\n"
+"#-#-#-#-#  krita-bs.po (calligra)  #-#-#-#-#\n"
+"Izaberi\n"
+"#-#-#-#-#  MusicShape-bs.po (calligra)  #-#-#-#-#\n"
+"Odaberi\n"
+"#-#-#-#-#  klines-bs.po (klines)  #-#-#-#-#\n"
+"Izaberi\n"
+"#-#-#-#-#  tasks-mobile-bs.po (tasks-mobile.po)  #-#-#-#-#\n"
+"Izaberi\n"
+"#-#-#-#-#  kmahjongg-bs.po (kdegames)  #-#-#-#-#\n"
+"Izaberite\n"
+"#-#-#-#-#  kaddressbook-mobile-bs.po (kaddressbook-mobile.po)  #-#-#-#-#\n"
+"Izaberite\n"
+"#-#-#-#-#  libmessagecomposer-bs.po (libmessagecomposer.po)  #-#-#-#-#\n"
+"Izaberi\n"
+"#-#-#-#-#  korganizer-mobile-bs.po (korganizer-mobile.po)  #-#-#-#-#\n"
+"Izaberi\n"
+"#-#-#-#-#  kmail-mobile-bs.po (kmail-mobile.po)  #-#-#-#-#\n"
+"Odaberi\n"
+"#-#-#-#-#  kdeqt-bs.po (kdeqt)  #-#-#-#-#\n"
+"izaberi\n"
+"#-#-#-#-#  notes-mobile-bs.po (notes-mobile.po)  #-#-#-#-#\n"
+"Odaberi\n"
+"#-#-#-#-#  kdevsubversion-bs.po (kdevplatform)  #-#-#-#-#\n"
+"Izaberi"
+
+#: criticalMsg
+#, fuzzy
+msgid "Critical"
+msgstr ""
+"#-#-#-#-#  planlibs-bs.po (calligra)  #-#-#-#-#\n"
+"Kritično\n"
+"#-#-#-#-#  kdelibs4-bs.po (kdelibs4)  #-#-#-#-#\n"
+"kritična\n"
+"#-#-#-#-#  ksystemlog-bs.po (kdeadmin)  #-#-#-#-#\n"
+"Kritična"
+
+# #-#-#-#-#  kcm_pci-bs.po (kcm_pci)  #-#-#-#-#
+# >> @item:intable
+#: infoMsg
+#, fuzzy
+msgid "Informational"
+msgstr ""
+"#-#-#-#-#  sheets-bs.po (calligra)  #-#-#-#-#\n"
+"Informacija\n"
+"#-#-#-#-#  kdebugdialog-bs.po (kdebugdialog)  #-#-#-#-#\n"
+"Informacija\n"
+"#-#-#-#-#  plasma_applet_news-bs.po (kdeplasma-addons)  #-#-#-#-#\n"
+"Informacija\n"
+"#-#-#-#-#  kalzium-bs.po (kalzium)  #-#-#-#-#\n"
+"Informacija\n"
+"#-#-#-#-#  okular-bs.po (kdegraphics)  #-#-#-#-#\n"
+"Informacija\n"
+"#-#-#-#-#  kcmopengl-bs.po (kcmopengl)  #-#-#-#-#\n"
+"podatak\n"
+"#-#-#-#-#  plasma_applet_binaryclock-bs.po (kdeplasma-addons)  #-#-#-#-#\n"
+"Informacija\n"
+"#-#-#-#-#  kcmkonqhtml-bs.po (kcmkonqhtml)  #-#-#-#-#\n"
+"Informacije\n"
+"#-#-#-#-#  kstars-bs.po (kstars)  #-#-#-#-#\n"
+"Informacija\n"
+"#-#-#-#-#  plasma_applet_comic-bs.po (kdeplasma-addons)  #-#-#-#-#\n"
+"Informacija\n"
+"#-#-#-#-#  kio_audiocd-bs.po (kio_audiocd)  #-#-#-#-#\n"
+"Informacija\n"
+"#-#-#-#-#  kmag-bs.po (kmag)  #-#-#-#-#\n"
+"Informacije\n"
+"#-#-#-#-#  kcm_infobase-bs.po (kcm_infobase)  #-#-#-#-#\n"
+"Informacije\n"
+"#-#-#-#-#  kcm_pci-bs.po (kcm_pci)  #-#-#-#-#\n"
+"podatak\n"
+"#-#-#-#-#  kio4-bs.po (kio4)  #-#-#-#-#\n"
+"Informacija\n"
+"#-#-#-#-#  kdelibs4-bs.po (kdelibs4)  #-#-#-#-#\n"
+"Informacija\n"
+"#-#-#-#-#  plasma_applet_fuzzy_clock-bs.po (kdeplasma-addons)  #-#-#-#-#\n"
+"Informacija\n"
+"#-#-#-#-#  gwenview-bs.po (kdegraphics)  #-#-#-#-#\n"
+"Informacija\n"
+"#-#-#-#-#  marble-bs.po (kdeedu)  #-#-#-#-#\n"
+"Informacija\n"
+"#-#-#-#-#  ksystemlog-bs.po (kdeadmin)  #-#-#-#-#\n"
+"Informacija\n"
+"#-#-#-#-#  kalgebra-bs.po (kdeedu)  #-#-#-#-#\n"
+"Informacija\n"
+"#-#-#-#-#  kopete-bs.po (__kde__kdenetwork__kopete)  #-#-#-#-#\n"
+"Informacija\n"
+"#-#-#-#-#  kfile_exr-bs.po (kfile_exr)  #-#-#-#-#\n"
+"Informacija\n"
+"#-#-#-#-#  plasma_applet_dig_clock-bs.po (plasma_applet_dig_clock)  #-#-#-#-#\n"
+"Podaci\n"
+"#-#-#-#-#  plasma_applet_notifications-bs.po (kdebase-workspace)  #-#-#-#-#\n"
+"Informacije\n"
+"#-#-#-#-#  kcmkamera-bs.po (kcmkamera)  #-#-#-#-#\n"
+"Informacija\n"
+"#-#-#-#-#  kftpgrabber-bs.po (bosnianuniversetranslation)  #-#-#-#-#\n"
+"Informacija\n"
+"#-#-#-#-#  digikam-bs.po (digikam)  #-#-#-#-#\n"
+"Informacije\n"
+"#-#-#-#-#  libk3b-bs.po (libk3b)  #-#-#-#-#\n"
+"Informacija\n"
+"#-#-#-#-#  kmymoney-bs.po (kmymoney)  #-#-#-#-#\n"
+"Informacije"
+
+# #-#-#-#-#  katepart4-bs.po (katepart4)  #-#-#-#-#
+# >> @item:inlistbox
+#: warningMsg
+#, fuzzy
+msgid "Warning"
+msgstr ""
+"#-#-#-#-#  kexi-bs.po (calligra)  #-#-#-#-#\n"
+"Upozorenje\n"
+"#-#-#-#-#  TextShape-bs.po (calligra)  #-#-#-#-#\n"
+"Upozorenje\n"
+"#-#-#-#-#  calligra-bs.po (calligra)  #-#-#-#-#\n"
+"Upozorenje\n"
+"#-#-#-#-#  CalendarTool-bs.po (calligra)  #-#-#-#-#\n"
+"Upozorenje\n"
+"#-#-#-#-#  planlibs-bs.po (calligra)  #-#-#-#-#\n"
+"Upozorenje\n"
+"#-#-#-#-#  sheets-bs.po (calligra)  #-#-#-#-#\n"
+"Upozorenje\n"
+"#-#-#-#-#  kdebugdialog-bs.po (kdebugdialog)  #-#-#-#-#\n"
+"Upozorenje\n"
+"#-#-#-#-#  libkpgp-bs.po (kdepim)  #-#-#-#-#\n"
+"Upozorenje\n"
+"#-#-#-#-#  kfilereplace-bs.po (kdewebdev)  #-#-#-#-#\n"
+"Upozorenje\n"
+"#-#-#-#-#  katepart4-bs.po (katepart4)  #-#-#-#-#\n"
+"upozorenje\n"
+"#-#-#-#-#  kdelibs4-bs.po (kdelibs4)  #-#-#-#-#\n"
+"Upozorenje\n"
+"#-#-#-#-#  ksudoku-bs.po (kdegames)  #-#-#-#-#\n"
+"Upozoranje\n"
+"#-#-#-#-#  kppp-bs.po (kppp)  #-#-#-#-#\n"
+"Upozorenje\n"
+"#-#-#-#-#  ksystemlog-bs.po (kdeadmin)  #-#-#-#-#\n"
+"Upozorenje\n"
+"#-#-#-#-#  umbrello-bs.po (umbrello)  #-#-#-#-#\n"
+"Upozorenje\n"
+"#-#-#-#-#  kaccess-bs.po (kaccess)  #-#-#-#-#\n"
+"Upozorenje\n"
+"#-#-#-#-#  digikam-bs.po (digikam)  #-#-#-#-#\n"
+"Upozorenje\n"
+"#-#-#-#-#  libk3b-bs.po (libk3b)  #-#-#-#-#\n"
+"Upozorenje\n"
+"#-#-#-#-#  kdevproblemreporter-bs.po (kdevplatform)  #-#-#-#-#\n"
+"Upozorenje\n"
+"#-#-#-#-#  k3b-bs.po (__kde__extragear-multimedia__k3b)  #-#-#-#-#\n"
+"Upozorenje\n"
+"#-#-#-#-#  konversation-bs.po (konversation)  #-#-#-#-#\n"
+"Upozorenje\n"
+"#-#-#-#-#  kdevgdb-bs.po (kdevelop)  #-#-#-#-#\n"
+"Upozorenje"
+
+#: workInProgress
+#, fuzzy
+msgid "Work In Progress"
+msgstr "U Toku"
+
+#: cancelRequest
+#, fuzzy
+msgid "Cancel Request"
+msgstr "Prekini ispitivanja"
+
+#: showPassword
+#, fuzzy
+msgid "Show password"
+msgstr "Prikaži lozinku:"
+
+#. # tooltip
+#: loading
+#, fuzzy
+msgid "Loading..."
+msgstr ""
+"#-#-#-#-#  kcmscreensaver-bs.po (kdebase-workspace)  #-#-#-#-#\n"
+"Učitavam...\n"
+"#-#-#-#-#  krunner-bs.po (krunner)  #-#-#-#-#\n"
+"Učitavam...\n"
+"#-#-#-#-#  kpat-bs.po (kpat)  #-#-#-#-#\n"
+"Učitavam...\n"
+"#-#-#-#-#  gwenview-bs.po (kdegraphics)  #-#-#-#-#\n"
+"Učitavam...\n"
+"#-#-#-#-#  akregator-bs.po (kdepim)  #-#-#-#-#\n"
+"Učitavam...\n"
+"#-#-#-#-#  korganizer-bs.po (__kde__kdepim__korganizer)  #-#-#-#-#\n"
+"Učitavanje\n"
+"#-#-#-#-#  kopete-bs.po (__kde__kdenetwork__kopete)  #-#-#-#-#\n"
+"Učitavam...\n"
+"#-#-#-#-#  libakonadi-bs.po (libakonadi)  #-#-#-#-#\n"
+"Učitavam...\n"
+"#-#-#-#-#  digikam-bs.po (digikam)  #-#-#-#-#\n"
+"Učitavam...\n"
+"#-#-#-#-#  rekonq-bs.po (rekonq)  #-#-#-#-#\n"
+"Učitavam...\n"
+"#-#-#-#-#  muon-discover-bs.po (bosnianuniversetranslation)  #-#-#-#-#\n"
+"Učitavam..."
+
+#. # confirm dialog
+#: confirmTitle
+msgid "Confirmation"
+msgstr "Potvrda"
+
+# #-#-#-#-#  kcm_pci-bs.po (kcm_pci)  #-#-#-#-#
+# >> @item:intable
+#. # wizard dialog
+#: _next
+#, fuzzy
+msgid "Next"
+msgstr ""
+"#-#-#-#-#  krita-bs.po (calligra)  #-#-#-#-#\n"
+"Sljedeći\n"
+"#-#-#-#-#  planlibs-bs.po (calligra)  #-#-#-#-#\n"
+"Sljed\n"
+"#-#-#-#-#  sheets-bs.po (calligra)  #-#-#-#-#\n"
+"Sljedeći\n"
+"#-#-#-#-#  kommander-bs.po (kdewebdev)  #-#-#-#-#\n"
+"Sljedeći\n"
+"#-#-#-#-#  libkremotecontrol-bs.po (kdeutils)  #-#-#-#-#\n"
+"Sljedeći\n"
+"#-#-#-#-#  kcm_pci-bs.po (kcm_pci)  #-#-#-#-#\n"
+"sljedeće\n"
+"#-#-#-#-#  gwenview-bs.po (kdegraphics)  #-#-#-#-#\n"
+"Sljedeća\n"
+"#-#-#-#-#  joystick-bs.po (kdebase-workspace)  #-#-#-#-#\n"
+"Sljedeće\n"
+"#-#-#-#-#  marble-bs.po (kdeedu)  #-#-#-#-#\n"
+"Sljedeći\n"
+"#-#-#-#-#  parley-bs.po (kdeedu)  #-#-#-#-#\n"
+"Sljedeće\n"
+"#-#-#-#-#  plasma_runner_audioplayercontrol-bs.po (kdeplasma-addons)  #-#-#-#-#\n"
+"Sljedeća\n"
+"#-#-#-#-#  kopete-bs.po (__kde__kdenetwork__kopete)  #-#-#-#-#\n"
+"Sljedeće\n"
+"#-#-#-#-#  kdeqt-bs.po (kdeqt)  #-#-#-#-#\n"
+"Sljedeće\n"
+"#-#-#-#-#  ktorrent-bs.po (ktorrent)  #-#-#-#-#\n"
+"Sljedeće\n"
+"#-#-#-#-#  kdevplatform-bs.po (kdevplatform)  #-#-#-#-#\n"
+"Sljedeći\n"
+"#-#-#-#-#  k3b-bs.po (__kde__extragear-multimedia__k3b)  #-#-#-#-#\n"
+"Sljedeće\n"
+"#-#-#-#-#  kdevstandardoutputview-bs.po (kdevplatform)  #-#-#-#-#\n"
+"Sljedeća"
+
+#: _prev
+#, fuzzy
+msgid "Previous"
+msgstr ""
+"#-#-#-#-#  sheets-bs.po (calligra)  #-#-#-#-#\n"
+"Prethodni\n"
+"#-#-#-#-#  kommander-bs.po (kdewebdev)  #-#-#-#-#\n"
+"Prethodni\n"
+"#-#-#-#-#  libkremotecontrol-bs.po (kdeutils)  #-#-#-#-#\n"
+"Prethodni\n"
+"#-#-#-#-#  gwenview-bs.po (kdegraphics)  #-#-#-#-#\n"
+"Prethodna\n"
+"#-#-#-#-#  marble-bs.po (kdeedu)  #-#-#-#-#\n"
+"Prethodni\n"
+"#-#-#-#-#  parley-bs.po (kdeedu)  #-#-#-#-#\n"
+"Prethodno\n"
+"#-#-#-#-#  kopete-bs.po (__kde__kdenetwork__kopete)  #-#-#-#-#\n"
+"Prethodno\n"
+"#-#-#-#-#  kdeqt-bs.po (kdeqt)  #-#-#-#-#\n"
+"Prethodno\n"
+"#-#-#-#-#  ktorrent-bs.po (ktorrent)  #-#-#-#-#\n"
+"Prethodno\n"
+"#-#-#-#-#  kdevplatform-bs.po (kdevplatform)  #-#-#-#-#\n"
+"Prethodni\n"
+"#-#-#-#-#  k3b-bs.po (__kde__extragear-multimedia__k3b)  #-#-#-#-#\n"
+"Prethodno\n"
+"#-#-#-#-#  kdevstandardoutputview-bs.po (kdevplatform)  #-#-#-#-#\n"
+"Prethodna"
+
+#: _finish
+#, fuzzy
+msgid "Finish"
+msgstr ""
+"#-#-#-#-#  kdelibs4-bs.po (kdelibs4)  #-#-#-#-#\n"
+"Završi\n"
+"#-#-#-#-#  importwizard-bs.po (bosnianuniversetranslation)  #-#-#-#-#\n"
+"Završi\n"
+"#-#-#-#-#  kopete-bs.po (__kde__kdenetwork__kopete)  #-#-#-#-#\n"
+"Završi\n"
+"#-#-#-#-#  kmymoney-bs.po (kmymoney)  #-#-#-#-#\n"
+"Završetak"
+
+#: _close
+#, fuzzy
+msgid "Close"
+msgstr ""
+"#-#-#-#-#  googledocs_plugin-bs.po (calligra)  #-#-#-#-#\n"
+"Zatvori\n"
+"#-#-#-#-#  krita-bs.po (calligra)  #-#-#-#-#\n"
+"Zatvori\n"
+"#-#-#-#-#  calligra-bs.po (calligra)  #-#-#-#-#\n"
+"Zatvori\n"
+"#-#-#-#-#  planlibs-bs.po (calligra)  #-#-#-#-#\n"
+"Zatvori\n"
+"#-#-#-#-#  dragonplayer-bs.po (kdemultimedia)  #-#-#-#-#\n"
+"Zatvori\n"
+"#-#-#-#-#  okular-bs.po (kdegraphics)  #-#-#-#-#\n"
+"Zatvori\n"
+"#-#-#-#-#  libplasma-bs.po (libplasma)  #-#-#-#-#\n"
+"Zatvori\n"
+"#-#-#-#-#  libkdecorations-bs.po (kwin_lib)  #-#-#-#-#\n"
+"Zatvori\n"
+"#-#-#-#-#  kstars-bs.po (kstars)  #-#-#-#-#\n"
+"Zatvori\n"
+"#-#-#-#-#  libkimap-bs.po (kdepimlibs)  #-#-#-#-#\n"
+"Zatvori\n"
+"#-#-#-#-#  kate-bs.po (kate)  #-#-#-#-#\n"
+"Zatvori\n"
+"#-#-#-#-#  kcmkwindecoration-bs.po (kcmkwindecoration)  #-#-#-#-#\n"
+"Zatvori\n"
+"#-#-#-#-#  kdelibs4-bs.po (kdelibs4)  #-#-#-#-#\n"
+"Zatvori\n"
+"#-#-#-#-#  kcmkeyboard-bs.po (kcmkeyboard)  #-#-#-#-#\n"
+"Zatvori\n"
+"#-#-#-#-#  plasma_applet_webbrowser-bs.po (plasma_applet_webbrowser)  #-#-#-#-#\n"
+"Zatvori\n"
+"#-#-#-#-#  libksieve-bs.po (kdepim)  #-#-#-#-#\n"
+"Zatvori\n"
+"#-#-#-#-#  printer-applet-bs.po (kdeutils)  #-#-#-#-#\n"
+"Zatvori\n"
+"#-#-#-#-#  libmessageviewer-bs.po (kdepim)  #-#-#-#-#\n"
+"Zatvori\n"
+"#-#-#-#-#  plasma_applet_spellcheck-bs.po (kdeplasma-addons)  #-#-#-#-#\n"
+"Zatvori\n"
+"#-#-#-#-#  kwin_clients-bs.po (kwin_clients)  #-#-#-#-#\n"
+"Zatvori\n"
+"#-#-#-#-#  kopete-bs.po (__kde__kdenetwork__kopete)  #-#-#-#-#\n"
+"Zatvori\n"
+"#-#-#-#-#  kwin_art_clients-bs.po (kdeartwork)  #-#-#-#-#\n"
+"Zatvori\n"
+"#-#-#-#-#  libkdepimmobileui-bs.po (libkdepimmobileui.po)  #-#-#-#-#\n"
+"Zatvori\n"
+"#-#-#-#-#  ktimetracker-bs.po (kdepim)  #-#-#-#-#\n"
+"Zatvori\n"
+"#-#-#-#-#  kdeqt-bs.po (kdeqt)  #-#-#-#-#\n"
+"Zatvori\n"
+"#-#-#-#-#  libkonq-bs.po (libkonq)  #-#-#-#-#\n"
+"Zatvori\n"
+"#-#-#-#-#  kdenlive-bs.po (bosnianuniversetranslation)  #-#-#-#-#\n"
+"Zatvori\n"
+"#-#-#-#-#  ktorrent-bs.po (ktorrent)  #-#-#-#-#\n"
+"Zatvori\n"
+"#-#-#-#-#  kmymoney-bs.po (kmymoney)  #-#-#-#-#\n"
+"Zatvori\n"
+"#-#-#-#-#  ktp-text-ui-bs.po (bosnianuniversetranslation)  #-#-#-#-#\n"
+"zatvori\n"
+"#-#-#-#-#  kwebkitpart-bs.po (bosnianuniversetranslation)  #-#-#-#-#\n"
+"Zatvori\n"
+"#-#-#-#-#  kdevplatform-bs.po (kdevplatform)  #-#-#-#-#\n"
+"Zatvori\n"
+"#-#-#-#-#  kile-bs.po (kile)  #-#-#-#-#\n"
+"Zatvori\n"
+"#-#-#-#-#  muon-discover-bs.po (bosnianuniversetranslation)  #-#-#-#-#\n"
+"Zatvori\n"
+"#-#-#-#-#  k3b-bs.po (__kde__extragear-multimedia__k3b)  #-#-#-#-#\n"
+"Zatvori\n"
+"#-#-#-#-#  konversation-bs.po (konversation)  #-#-#-#-#\n"
+"Zatvori"
+
+# #-#-#-#-#  plasma_engine_weather-bs.po (plasma_engine_weather)  #-#-#-#-#
+# |, no-check-spell
+#: weekdaySunShort
+#, fuzzy
+msgctxt "weekdaySunShort"
+msgid "S"
+msgstr ""
+"#-#-#-#-#  sheets-bs.po (calligra)  #-#-#-#-#\n"
+"S\n"
+"#-#-#-#-#  kcalc-bs.po (kcalc)  #-#-#-#-#\n"
+"S\n"
+"#-#-#-#-#  marble_qt-bs.po (kdeedu)  #-#-#-#-#\n"
+"J\n"
+"#-#-#-#-#  plasma_engine_weather-bs.po (plasma_engine_weather)  #-#-#-#-#\n"
+"J\n"
+"#-#-#-#-#  kdenlive-bs.po (bosnianuniversetranslation)  #-#-#-#-#\n"
+"S"
+
+#: weekdayMonShort
+#, fuzzy
+msgctxt "weekdayMonShort"
+msgid "M"
+msgstr "M"
+
+#: weekdayTueShort
+#, fuzzy
+msgctxt "weekdayTueShort"
+msgid "T"
+msgstr "T"
+
+# #-#-#-#-#  plasma_engine_weather-bs.po (plasma_engine_weather)  #-#-#-#-#
+# |, no-check-spell
+#: weekdayWedShort
+#, fuzzy
+msgctxt "weekdayWedShort"
+msgid "W"
+msgstr ""
+"#-#-#-#-#  marble_qt-bs.po (kdeedu)  #-#-#-#-#\n"
+"Z\n"
+"#-#-#-#-#  plasma_engine_weather-bs.po (plasma_engine_weather)  #-#-#-#-#\n"
+"Z\n"
+"#-#-#-#-#  kfourinline-bs.po (kdegames)  #-#-#-#-#\n"
+"W\n"
+"#-#-#-#-#  kdenlive-bs.po (bosnianuniversetranslation)  #-#-#-#-#\n"
+"W"
+
+#: weekdayThuShort
+#, fuzzy
+msgctxt "weekdayThuShort"
+msgid "T"
+msgstr "T"
+
+#: weekdayFriShort
+#, fuzzy
+msgctxt "weekdayFriShort"
+msgid "F"
+msgstr "F"
+
+# #-#-#-#-#  plasma_engine_weather-bs.po (plasma_engine_weather)  #-#-#-#-#
+# |, no-check-spell
+#: weekdaySatShort
+#, fuzzy
+msgctxt "weekdaySatShort"
+msgid "S"
+msgstr ""
+"#-#-#-#-#  sheets-bs.po (calligra)  #-#-#-#-#\n"
+"S\n"
+"#-#-#-#-#  kcalc-bs.po (kcalc)  #-#-#-#-#\n"
+"S\n"
+"#-#-#-#-#  marble_qt-bs.po (kdeedu)  #-#-#-#-#\n"
+"J\n"
+"#-#-#-#-#  plasma_engine_weather-bs.po (plasma_engine_weather)  #-#-#-#-#\n"
+"J\n"
+"#-#-#-#-#  kdenlive-bs.po (bosnianuniversetranslation)  #-#-#-#-#\n"
+"S"
+
+#: monthJanShort
+#, fuzzy
+msgctxt "monthJanShort"
+msgid "J"
+msgstr "J"
+
+#: monthFebShort
+#, fuzzy
+msgctxt "monthFebShort"
+msgid "F"
+msgstr "F"
+
+#: monthMarShort
+#, fuzzy
+msgctxt "monthMarShort"
+msgid "M"
+msgstr "M"
+
+#: monthAprShort
+#, fuzzy
+msgctxt "monthAprShort"
+msgid "A"
+msgstr "A"
+
+#: monthMayShort
+#, fuzzy
+msgctxt "monthMayShort"
+msgid "M"
+msgstr "M"
+
+#: monthJunShort
+#, fuzzy
+msgctxt "monthJunShort"
+msgid "J"
+msgstr "J"
+
+#: monthJulShort
+#, fuzzy
+msgctxt "monthJulShort"
+msgid "J"
+msgstr "J"
+
+#: monthAugShort
+#, fuzzy
+msgctxt "monthAugShort"
+msgid "A"
+msgstr "A"
+
+# #-#-#-#-#  plasma_engine_weather-bs.po (plasma_engine_weather)  #-#-#-#-#
+# |, no-check-spell
+#: monthSepShort
+#, fuzzy
+msgctxt "monthSepShort"
+msgid "S"
+msgstr ""
+"#-#-#-#-#  sheets-bs.po (calligra)  #-#-#-#-#\n"
+"S\n"
+"#-#-#-#-#  kcalc-bs.po (kcalc)  #-#-#-#-#\n"
+"S\n"
+"#-#-#-#-#  marble_qt-bs.po (kdeedu)  #-#-#-#-#\n"
+"J\n"
+"#-#-#-#-#  plasma_engine_weather-bs.po (plasma_engine_weather)  #-#-#-#-#\n"
+"J\n"
+"#-#-#-#-#  kdenlive-bs.po (bosnianuniversetranslation)  #-#-#-#-#\n"
+"S"
+
+#: monthOctShort
+msgid "O"
+msgstr "O"
+
+# #-#-#-#-#  plasma_engine_weather-bs.po (plasma_engine_weather)  #-#-#-#-#
+# |, no-check-spell
+#: monthNovShort
+#, fuzzy
+msgid "N"
+msgstr ""
+"#-#-#-#-#  kcalc-bs.po (kcalc)  #-#-#-#-#\n"
+"N\n"
+"#-#-#-#-#  marble_qt-bs.po (kdeedu)  #-#-#-#-#\n"
+"S\n"
+"#-#-#-#-#  plasma_engine_weather-bs.po (plasma_engine_weather)  #-#-#-#-#\n"
+"S\n"
+"#-#-#-#-#  kdenlive-bs.po (bosnianuniversetranslation)  #-#-#-#-#\n"
+"N"
+
+#: monthDecShort
+msgid "D"
+msgstr "D"
+
+# #-#-#-#-#  plasma_engine_weather-bs.po (plasma_engine_weather)  #-#-#-#-#
+# |, no-check-spell
+#: calendarWeekTitle
+#, fuzzy
+msgctxt "calendarWeekTitle"
+msgid "W"
+msgstr ""
+"#-#-#-#-#  marble_qt-bs.po (kdeedu)  #-#-#-#-#\n"
+"Z\n"
+"#-#-#-#-#  plasma_engine_weather-bs.po (plasma_engine_weather)  #-#-#-#-#\n"
+"Z\n"
+"#-#-#-#-#  kfourinline-bs.po (kdegames)  #-#-#-#-#\n"
+"W\n"
+"#-#-#-#-#  kdenlive-bs.po (bosnianuniversetranslation)  #-#-#-#-#\n"
+"W"
+
+#: timezoneNameAuto-DetectedLong
+#, fuzzy
+msgid "Auto-Detected"
+msgstr "Automatski otkrij"
+
+#: timezoneNameAuto-DetectedShort
+#, fuzzy
+msgid "Auto"
+msgstr ""
+"#-#-#-#-#  kexi-bs.po (calligra)  #-#-#-#-#\n"
+"Automatski\n"
+"#-#-#-#-#  krita-bs.po (calligra)  #-#-#-#-#\n"
+"Automatski\n"
+"#-#-#-#-#  flow-bs.po (calligra)  #-#-#-#-#\n"
+"Automatski\n"
+"#-#-#-#-#  libksane-bs.po (kdegraphics)  #-#-#-#-#\n"
+"Automatski\n"
+"#-#-#-#-#  kommander-bs.po (kdewebdev)  #-#-#-#-#\n"
+"Auto\n"
+"#-#-#-#-#  kdgantt2-bs.po (kdgantt2.po)  #-#-#-#-#\n"
+"Automatski\n"
+"#-#-#-#-#  kstars-bs.po (kstars)  #-#-#-#-#\n"
+"Auto.\n"
+"#-#-#-#-#  libmessageviewer-bs.po (kdepim)  #-#-#-#-#\n"
+"Automatski\n"
+"#-#-#-#-#  kmail-mobile-bs.po (kmail-mobile.po)  #-#-#-#-#\n"
+"Automatski\n"
+"#-#-#-#-#  digikam-bs.po (digikam)  #-#-#-#-#\n"
+"Automatski\n"
+"#-#-#-#-#  kdenlive-bs.po (bosnianuniversetranslation)  #-#-#-#-#\n"
+"Automatski\n"
+"#-#-#-#-#  libk3b-bs.po (libk3b)  #-#-#-#-#\n"
+"Auto\n"
+"#-#-#-#-#  kdevplatform-bs.po (kdevplatform)  #-#-#-#-#\n"
+"Automatski\n"
+"#-#-#-#-#  k3b-bs.po (__kde__extragear-multimedia__k3b)  #-#-#-#-#\n"
+"Autor\n"
+"#-#-#-#-#  kdgantt-bs.po (kdepim)  #-#-#-#-#\n"
+"Automatski"
+
+#: valueIsRequired
+#, fuzzy
+msgid "Value is required"
+msgstr "Prijava je potrebna"
+
+#: notAString
+#, fuzzy
+msgid "Value must be a text string."
+msgstr "Morate unijeti znakovni niz za pretragu."
+
+#: stringLenWrong
+#, fuzzy
+msgid "Value must be exactly {0} characters long."
+msgstr "Lozinka mora imati bar %1 znak"
+
+#: stringTooShort
+#, fuzzy
+msgid "Value must be at least {0} characters long."
+msgstr "Lozinka mora imati bar %1 znak"
+
+#: stringTooLong
+#, fuzzy
+msgid "Value must be no more than {0} characters long."
+msgstr "Lozinka mora imati bar %1 znak"
+
+#: stringMismatch
+#, fuzzy
+msgid "Value did not match valid values."
+msgstr "Ovo nije ispravna vrijednost."
+
+#: invalidEmailAddr
+#, fuzzy
+msgid "Value is not a valid email address."
+msgstr "Molim unesite ispravnu e-mail adresu."
+
+#: invalidEmailAddrValue
+#, fuzzy
+msgid "{0} is not a valid email address."
+msgstr "%1 nije važeći opseg ćelija."
+
+#: notANumber
+#, fuzzy
+msgid "Value must be a number."
+msgstr "%1 mora biti broj"
+
+#: notAnInteger
+#, fuzzy
+msgid "Value must be an integer."
+msgstr "%1 mora biti cijeli broj"
+
+#: numberTotalExceeded
+msgid "Whole digits exceeds total of {0}."
+msgstr "Cijele cifre prelaze sumu {0}."
+
+#: numberFractionExceeded
+msgid "Fractional digits exceeds total of {0}."
+msgstr "Decimalne cifre prelaze sumu {0}."
+
+#: numberMoreThanMax
+#, fuzzy
+msgctxt "numberMoreThanMax"
+msgid "Value must be less than or equal to {0}."
+msgstr "Aspekt %1 mora biti veći ili jednak aspektu %2."
+
+#: numberMoreThanEqualMax
+#, fuzzy
+msgid "Value must be less than {0}."
+msgstr "Aspekt %1 mora biti manji od aspekta %2."
+
+#: numberLessThanMin
+#, fuzzy
+msgctxt "numberLessThanMin"
+msgid "Value must be greater than or equal to {0}."
+msgstr "Ocjena veća ili jednaka od %1."
+
+#: numberLessThanEqualMin
+#, fuzzy
+msgid "Value must be greater than {0}."
+msgstr "jednako ili veće od"
+
+#: numberMustBeNon0Percent
+#, fuzzy
+msgid "Value must be a percentage between 1 and 100"
+msgstr "Vrijednost azimuta mora biti između 0.0 i 360.0."
+
+#: percentageString
+msgid "{0}%"
+msgstr "{0}%"
+
+#: setColor
+msgid "Set"
+msgstr "Postaviti"
+
+#: colorFormatError
+msgid "<font color=darkred><b>The color entered is wrong. <br>The correct format is <br>rgb (255, 255, 255){0-255}<br>or #FFFFFF{0-9, a-f, A-F}</b></font>"
+msgstr "<font color=darkred><b>Odabrana boja nije ispravna. <br>Ispravan format je <br>rgb (255, 255, 255){0-255}<br>ili #FFFFFF{0-9, a-f, A-F}</b></font>"
+
+#: previewResult
+#, fuzzy
+msgid "Preview Result:"
+msgstr "Pregledi:"
+
+#. # Xforms versions of messages above. Will be replaced when Xforms moves to new property model
+#: xFnumberMoreThanMax
+#, fuzzy
+msgctxt "xFnumberMoreThanMax"
+msgid "Value must be less than or equal to {0}."
+msgstr "Aspekt %1 mora biti veći ili jednak aspektu %2."
+
+#: XfnumberLessThanMin
+#, fuzzy
+msgctxt "XfnumberLessThanMin"
+msgid "Value must be greater than or equal to {0}."
+msgstr "Ocjena veća ili jednaka od %1."
+
+#: invalidDateString
+msgid "Date value must be entered in the form: MM/DD/YYYY or \"today\", \"yesterday\" or \"tomorrow\"."
+msgstr "Vrijednost za datum treba biti unijeta u obliku: MM/DD/YYYY ili \"danas\", \"juče\" ili \"sutra\"."
+
+#: invalidTimeString
+#, fuzzy
+msgid "Time value must be entered in the form: HH:MM[:SS] [AM|PM]"
+msgstr "Te vrijednosti moraju biti upisane u postavkama izvoru podataka ."
+
+#: invalidDatetimeString
+#, fuzzy
+msgid "Date format not understood."
+msgstr "Format datoteke nije podržan."
+
+#: didNotMatchChoice
+#, fuzzy
+msgid "Value '{0}' did not match any values for this type."
+msgstr "Pretraživač nije pronašao niti jedan snimak ili sliku"
+
+#: xformRepeatAdd
+msgid "+"
+msgstr "+"
+
+#: xformRepeatRemove
+#, fuzzy
+msgid "-"
+msgstr ""
+"#-#-#-#-#  krita-bs.po (calligra)  #-#-#-#-#\n"
+"-\n"
+"#-#-#-#-#  lokalize-bs.po (lokalize)  #-#-#-#-#\n"
+"–\n"
+"#-#-#-#-#  marble_qt-bs.po (kdeedu)  #-#-#-#-#\n"
+"-\n"
+"#-#-#-#-#  kfilereplace-bs.po (kdewebdev)  #-#-#-#-#\n"
+"-\n"
+"#-#-#-#-#  system-config-printer-kde-bs.po (system-config-printer-kde)  #-#-#-#-#\n"
+"-\n"
+"#-#-#-#-#  cantor-bs.po (kdeedu)  #-#-#-#-#\n"
+"-\n"
+"#-#-#-#-#  marble-bs.po (kdeedu)  #-#-#-#-#\n"
+"-\n"
+"#-#-#-#-#  parley-bs.po (kdeedu)  #-#-#-#-#\n"
+"-\n"
+"#-#-#-#-#  umbrello-bs.po (umbrello)  #-#-#-#-#\n"
+"-\n"
+"#-#-#-#-#  k3b-bs.po (__kde__extragear-multimedia__k3b)  #-#-#-#-#\n"
+"-"
+
+#: xformDateTimeFormat
+#, fuzzy
+msgid "{0,date} at {0,time}"
+msgstr "datum i/ili vrijeme"
+
+#: xformFontColor
+msgid "Font Color"
+msgstr "Boja fonta"
+
+#: sizeGigaBytes
+#, fuzzy
+msgid "GB"
+msgstr ""
+"#-#-#-#-#  timezones4-bs.po (timezones4)  #-#-#-#-#\n"
+"VB\n"
+"#-#-#-#-#  k3b-bs.po (__kde__extragear-multimedia__k3b)  #-#-#-#-#\n"
+"GB"
+
+#: sizeMegaBytes
+msgid "MB"
+msgstr "MB"
+
+#: sizeKiloBytes
+msgid "KB"
+msgstr "kB"
+
+#: sizeBytes
+msgid "B"
+msgstr "B"
+
+#. # For formatting file sizes (e.g. "123.4 MB")
+#: formatSizeAndUnits
+msgid "{0} {1}"
+msgstr ""
+
+#. # Timezone names
+#: Africa/Algiers
+msgid "GMT +01:00 West Central Africa"
+msgstr ""
+
+#: America/Asuncion
+msgid "GMT -04:00 Asuncion  "
+msgstr ""
+
+#: Africa/Cairo
+msgid "GMT +02:00 Egypt"
+msgstr ""
+
+#: Africa/Casablanca
+#, fuzzy
+msgid "GMT +00:00 Casablanca"
+msgstr "Casablanca"
+
+#: Africa/Monrovia
+msgid "GMT +00:00 Monrovia"
+msgstr ""
+
+#: Africa/Harare
+msgid "GMT +02:00 Harare, Pretoria"
+msgstr ""
+
+#: Africa/Nairobi
+msgid "GMT +03:00 Nairobi"
+msgstr ""
+
+#: Africa/Windhoek
+msgid "GMT +01:00 Namibia"
+msgstr ""
+
+#: America/Bogota
+msgid "GMT -05:00 Colombia"
+msgstr ""
+
+#: America/Argentina/Buenos_Aires
+#, fuzzy
+msgid "GMT -03:00 Argentina"
+msgstr "Argentina"
+
+#: America/Caracas
+msgid "GMT -04:30 Caracas"
+msgstr ""
+
+#: America/Cayenne
+msgid "GMT -03:00 Cayenne, Fortaleza"
+msgstr ""
+
+#: America/Chihuahua
+msgid "GMT -07:00 Chihuahua, La Paz, Mazatlan"
+msgstr ""
+
+#: America/Cuiaba
+msgid "GMT -04:00 Cuiaba"
+msgstr ""
+
+#: America/Godthab
+#, fuzzy
+msgid "GMT -03:00 Greenland"
+msgstr "Grenland"
+
+#: America/Guatemala
+#, fuzzy
+msgid "GMT -06:00 Central America"
+msgstr "Sjeverna i Srednja Amerika"
+
+#: America/Guyana
+msgid "GMT -04:00 Georgetown, La Paz, Manaus, San Juan"
+msgstr ""
+
+#: America/La_Paz
+msgid "GMT -04:00 La Paz"
+msgstr ""
+
+#: America/Manaus
+msgid "GMT -04:00 Manaus"
+msgstr ""
+
+#: America/Mexico_City
+msgid "GMT -06:00 Guadalajara, Mexico City, Monterrey"
+msgstr ""
+
+#: America/Montevideo
+#, fuzzy
+msgid "GMT -03:00 Montevideo"
+msgstr "Montevideo"
+
+#: America/Santiago
+msgid "GMT -04:00 Pacific South America"
+msgstr ""
+
+#: America/Tijuana
+#, fuzzy
+msgid "GMT -08:00 Baja California"
+msgstr "Kalifornijski zaljev"
+
+#: Asia/Almaty
+msgid "GMT +06:00 Astana"
+msgstr ""
+
+#: Asia/Amman
+msgid "GMT +02:00 Jordan"
+msgstr ""
+
+#: Asia/Baghdad
+msgid "GMT +03:00 Iraq"
+msgstr ""
+
+#: Asia/Baku
+msgid "GMT +04:00 Baku"
+msgstr ""
+
+#: Asia/Bangkok
+msgid "GMT +07:00 Bangkok, Hanoi, Jakarta"
+msgstr ""
+
+#: Asia/Beirut
+msgid "GMT +02:00 Beirut"
+msgstr ""
+
+#: Asia/Kolkata
+msgid "GMT +05:30 Chennai, Kolkata, Mumbai, New Delhi"
+msgstr ""
+
+#: Asia/Colombo
+#, fuzzy
+msgid "GMT +05:30 Sri Jayawardenepura"
+msgstr "Kolombo i Šri DŽajevardenepura"
+
+#: Asia/Dhaka
+msgid "GMT +06:00 Dhaka"
+msgstr ""
+
+#: Asia/Hong_Kong
+msgid "GMT +08:00 Beijing, Chongqing, Hong Kong, Urumqi"
+msgstr ""
+
+#: Asia/Irkutsk
+msgid "GMT +08:00 Irkutsk"
+msgstr ""
+
+#: Asia/Jerusalem
+#, fuzzy
+msgid "GMT +02:00 Jerusalem"
+msgstr "Jerusalem"
+
+#: Asia/Kabul
+msgid "GMT +04:30 Kabul"
+msgstr ""
+
+#: Asia/Kamchatka
+#, fuzzy
+msgid "GMT +12:00 Petropavlovsk-Kamchatsky"
+msgstr "Petropavlovsk-Kamchatsky"
+
+#: Asia/Karachi
+msgid "GMT +05:00 Islamabad, Karachi"
+msgstr ""
+
+#: Asia/Katmandu
+#, fuzzy
+msgid "GMT +05:45 Kathmandu"
+msgstr "Kathmandu"
+
+#: Asia/Krasnoyarsk
+#, fuzzy
+msgid "GMT +07:00 Krasnoyarsk"
+msgstr "Krasnoyarsk"
+
+#: Asia/Kuala_Lumpur
+msgid "GMT +08:00 Kuala Lumpur, Singapore"
+msgstr ""
+
+#: Asia/Kuwait
+msgid "GMT +03:00 Kuwait, Riyadh"
+msgstr ""
+
+#: Asia/Magadan
+msgid "GMT +11:00 Magadan, Solomon Is., New Caledonia"
+msgstr ""
+
+#: Asia/Muscat
+msgid "GMT +04:00 Abu Dhabi, Muscat"
+msgstr ""
+
+#: Asia/Novosibirsk
+#, fuzzy
+msgid "GMT +06:00 Novosibirsk"
+msgstr "Moskva+3 — Novosibirsk"
+
+#: Asia/Rangoon
+msgid "GMT +06:30 Rangoon"
+msgstr ""
+
+#: Asia/Seoul
+msgid "GMT +09:00 Korea"
+msgstr ""
+
+#: Asia/Taipei
+msgid "GMT +08:00 Taipei"
+msgstr ""
+
+#: Asia/Tashkent
+msgid "GMT +05:00 Tashkent"
+msgstr ""
+
+#: Asia/Tbilisi
+msgid "GMT +04:00 Tbilisi"
+msgstr ""
+
+#: Asia/Tehran
+msgid "GMT +03:30 Tehran"
+msgstr ""
+
+#: Asia/Tokyo
+msgid "GMT +09:00 Japan"
+msgstr ""
+
+#: Asia/Ulaanbaatar
+#, fuzzy
+msgid "GMT +08:00 Ulaanbaatar"
+msgstr "Ulanbator"
+
+#: Asia/Vladivostok
+#, fuzzy
+msgid "GMT +10:00 Vladivostok"
+msgstr "Vladivostok"
+
+#: Asia/Yakutsk
+msgid "GMT +09:00 Yakutsk"
+msgstr ""
+
+#: Asia/Yekaterinburg
+#, fuzzy
+msgid "GMT +05:00 Yekaterinburg"
+msgstr "Yekaterinburg"
+
+#: Asia/Yerevan
+msgid "GMT +04:00 Yerevan"
+msgstr ""
+
+#: Atlantic/Azores
+msgid "GMT -01:00 Azores"
+msgstr ""
+
+#: Atlantic/Cape_Verde
+msgid "GMT -01:00 Cape Verde Is."
+msgstr ""
+
+#: Atlantic/South_Georgia
+msgid "GMT -02:00 Mid-Atlantic"
+msgstr ""
+
+#: Australia/Adelaide
+msgid "GMT +09:30 Adelaide"
+msgstr ""
+
+#: Australia/Brisbane
+msgid "GMT +10:00 Brisbane"
+msgstr ""
+
+#: Australia/Darwin
+msgid "GMT +09:30 Darwin"
+msgstr ""
+
+#: Australia/Hobart
+msgid "GMT +10:00 Hobart"
+msgstr ""
+
+#: Australia/Perth
+msgid "GMT +08:00 Perth"
+msgstr ""
+
+#: Australia/Sydney
+msgid "GMT +10:00 Canberra, Melbourne, Sydney"
+msgstr ""
+
+#: America/Sao_Paulo
+msgid "GMT -03:00 Brasilia"
+msgstr ""
+
+#: America/Halifax
+msgid "GMT -04:00 Atlantic Time (Canada)"
+msgstr ""
+
+#: America/St_Johns
+#, fuzzy
+msgid "GMT -03:30 Newfoundland"
+msgstr "Newfoundland"
+
+#: America/Regina
+#, fuzzy
+msgid "GMT -06:00 Saskatchewan"
+msgstr "Saskačevan"
+
+#: Etc/GMT-12
+msgid "GMT +12:00 GMT+12"
+msgstr ""
+
+#: Etc/GMT+11
+msgid "GMT -11:00 GMT-11"
+msgstr ""
+
+#: Etc/GMT+12
+msgid "GMT -12:00 Dateline"
+msgstr ""
+
+#: Etc/GMT+2
+msgid "GMT -02:00 GMT-02"
+msgstr ""
+
+#: UTC
+msgid "GMT/UTC Coordinated Universal Time"
+msgstr ""
+
+#: Europe/Athens
+msgid "GMT +02:00 Athens, Beirut, Bucharest, Istanbul"
+msgstr ""
+
+#: Europe/Belgrade
+msgid "GMT +01:00 Belgrade, Bratislava, Budapest, Ljubljana, Prague"
+msgstr ""
+
+#: Europe/Berlin
+msgid "GMT +01:00 Amsterdam, Berlin, Bern, Rome, Stockholm, Vienna"
+msgstr ""
+
+#: Europe/Brussels
+msgid "GMT +01:00 Brussels, Copenhagen, Madrid, Paris"
+msgstr ""
+
+#: Europe/Helsinki
+msgid "GMT +02:00 Helsinki, Kyiv, Riga, Sofia, Tallinn, Vilnius"
+msgstr ""
+
+#: Europe/London
+msgid "GMT +00:00 Britain, Ireland, Portugal"
+msgstr ""
+
+#: Europe/Minsk
+msgid "GMT +02:00 Minsk"
+msgstr ""
+
+#: Europe/Moscow
+msgid "GMT +03:00 Moscow, St. Petersburg, Volgograd"
+msgstr ""
+
+#: Europe/Warsaw
+msgid "GMT +01:00 Sarajevo, Skopje, Warsaw, Zagreb"
+msgstr ""
+
+#: Indian/Mauritius
+#, fuzzy
+msgid "GMT +04:00 Port Louis"
+msgstr "Port Louis"
+
+#: Pacific/Auckland
+#, fuzzy
+msgid "GMT +12:00 New Zealand"
+msgstr "Novi Zeland"
+
+#: Pacific/Fiji
+msgid "GMT +12:00 Fiji"
+msgstr ""
+
+#: Pacific/Guam
+msgid "GMT +10:00 Guam, Port Moresby"
+msgstr ""
+
+#: Pacific/Midway
+msgid "GMT -11:00 Samoa"
+msgstr ""
+
+#: Pacific/Tongatapu
+#, fuzzy
+msgid "GMT +13:00 Nuku'alofa"
+msgstr "Nuku'alofa"
+
+#: America/Anchorage
+msgid "GMT -09:00 Alaska"
+msgstr ""
+
+#: America/Phoenix
+msgid "GMT -07:00 Arizona"
+msgstr ""
+
+#: America/Chicago
+#, fuzzy
+msgid "GMT -06:00 US/Canada Central"
+msgstr "Kanada/centralna"
+
+#: America/Indiana/Indianapolis
+msgid "GMT -05:00 Indiana (East)"
+msgstr ""
+
+#: America/New_York
+#, fuzzy
+msgid "GMT -05:00 US/Canada Eastern"
+msgstr "Kanada/istočna"
+
+#: Pacific/Honolulu
+msgid "GMT -10:00 Hawaii"
+msgstr ""
+
+#: America/Denver
+#, fuzzy
+msgid "GMT -07:00 US/Canada Mountain"
+msgstr "Kanada/planinska"
+
+#: America/Los_Angeles
+#, fuzzy
+msgid "GMT -08:00 US/Canada Pacific"
+msgstr "Kanada/Pacifik"
+
+#. # The font family options specified below are a list of fonts for
+#. # HTML compose. Each value is a comma-separated list of font names
+#. # to be used. The entries whose key ends in ".display" is used as
+#. # the name that is shown to the user; entries whose key ends in
+#. # ".css" is the CSS list of font names that is inserted into the
+#. # HTML document.
+#. #
+#. # Any number of font families can be added to the list. To add a
+#. # font family, name the key "fontFamilyBase{number}.display" and
+#. # "fontFamilyBase{number}.css" for the common list of fonts; or
+#. #"fontFamilyIntl{number}.display" and "fontFamilyIntl{number].css"
+#. # for additional fonts to prefix for this specific locale. The
+#. # {number} is the next number in the list; numbers start at 1. To
+#. # end the list, leave the last values as the "###" string.
+#. #
+#. # Note: Not all of the fontFamilyIntl values need to be specified!
+#. #       And you should always leave a "###" entry at the end to
+#. #       avoid accidentally include intl font families inherited
+#. #       from the less specific locale property file.
+#: fontFamilyBase1.display
+#, fuzzy
+msgid "Andale Mono"
+msgstr "Vrsta ugla"
+
+#: fontFamilyBase2.display
+#, fuzzy
+msgid "Arial"
+msgstr "Serijski"
+
+#: fontFamilyBase3.display
+#, fuzzy
+msgid "Arial Black"
+msgstr "Dejvid Blek"
+
+#: fontFamilyBase4.display
+#, fuzzy
+msgid "Book Antiqua"
+msgstr "Antioquia"
+
+#: fontFamilyBase5.display
+#, fuzzy
+msgid "Bookman Old Style"
+msgstr "Stil pozadine"
+
+#: fontFamilyBase6.display
+#, fuzzy
+msgid "Comic Sans MS"
+msgstr "Cosmic Strings"
+
+#: fontFamilyBase7.display
+#, fuzzy
+msgid "Courier New"
+msgstr "Ime terena"
+
+#: fontFamilyBase8.display
+#, fuzzy
+msgid "Garamond"
+msgstr "Dijamant"
+
+#: fontFamilyBase9.display
+msgid "Georgia"
+msgstr "Gruzija"
+
+#: fontFamilyBase10.display
+#, fuzzy
+msgid "Helvetica"
+msgstr "Sobel uspravni"
+
+#: fontFamilyBase11.display
+#, fuzzy
+msgid "Impact"
+msgstr "Sabij"
+
+#: fontFamilyBase12.display
+#, fuzzy
+msgid "Lucida Console"
+msgstr "Konzola XML‑a"
+
+#: fontFamilyBase13.display
+msgid "Symbol"
+msgstr "Simbol"
+
+#: fontFamilyBase14.display
+#, fuzzy
+msgid "Tahoma"
+msgstr "Tomas"
+
+#: fontFamilyBase15.display
+msgid "Terminal"
+msgstr "Terminal"
+
+#: fontFamilyBase16.display
+#, fuzzy
+msgid "Times New Roman"
+msgstr "Snimi novi format"
+
+#: fontFamilyBase17.display
+#, fuzzy
+msgid "Trebuchet MS"
+msgstr "Truše"
+
+#: fontFamilyBase18.display
+#, fuzzy
+msgid "Verdana"
+msgstr "Cerdanya"
+
+#: fontFamilyBase19.display
+#, fuzzy
+msgid "Webdings"
+msgstr "Zbornik radova"
+
+#: fontFamilyBase20.display
+#, fuzzy
+msgid "Wingdings"
+msgstr "Tipka prečice"
+
+#: fontFamilyBase21.display
+msgctxt "fontFamilyBase21.display"
+msgid "###"
+msgstr ""
+
+#. # TODO: Should we expose the base font families for translation?
+#. #L10N_IGNORE_BLOCK_BEGIN
+#: fontFamilyBase1.css
+#, fuzzy
+msgid "andale mono,times"
+msgstr "Uključi još opcija"
+
+#: fontFamilyBase2.css
+msgid "arial, helvetica, sans-serif"
+msgstr ""
+
+#: fontFamilyBase3.css
+msgid "arial black,avant garde"
+msgstr ""
+
+#: fontFamilyBase4.css
+msgid "book antiqua,palatino"
+msgstr ""
+
+#: fontFamilyBase5.css
+msgid "bookman old style, new york, times, serif"
+msgstr ""
+
+#: fontFamilyBase6.css
+msgid "comic sans ms, comic sans, sans-serif"
+msgstr ""
+
+#: fontFamilyBase7.css
+msgid "courier new, courier, monaco, monospace, sans-serif"
+msgstr ""
+
+#: fontFamilyBase8.css
+msgid "garamond, new york, times, serif"
+msgstr ""
+
+#: fontFamilyBase9.css
+#, fuzzy
+msgid "georgia,serif"
+msgstr "Gruzijski lari"
+
+#: fontFamilyBase10.css
+#, fuzzy
+msgid "helvetica"
+msgstr "Cheticamp"
+
+#: fontFamilyBase11.css
+msgid "impact,chicago"
+msgstr ""
+
+#: fontFamilyBase12.css
+msgid "lucida console, sans-serif"
+msgstr ""
+
+#: fontFamilyBase13.css
+#, fuzzy
+msgid "symbol"
+msgstr "Simbol"
+
+#: fontFamilyBase14.css
+msgid "tahoma, new york, times, serif"
+msgstr ""
+
+#: fontFamilyBase15.css
+#, fuzzy
+msgid "terminal,monaco"
+msgstr "Emulator terminala"
+
+#: fontFamilyBase16.css
+msgid "times new roman, new york, times, serif"
+msgstr ""
+
+#: fontFamilyBase17.css
+msgid "trebuchet ms,sans-serif"
+msgstr ""
+
+#: fontFamilyBase18.css
+msgid "verdana, helvetica, sans-serif"
+msgstr ""
+
+#: fontFamilyBase19.css
+#, fuzzy
+msgid "webdings"
+msgstr "Zbornik radova"
+
+#: fontFamilyBase20.css
+msgid "wingdings,zapf dingbats"
+msgstr ""
+
+#: fontFamilyBase21.css
+msgctxt "fontFamilyBase21.css"
+msgid "###"
+msgstr ""
+
+#. #L10N_IGNORE_BLOCK_END
+#. # These will be set by the various translations
+#: fontFamilyIntl1.display
+msgctxt "fontFamilyIntl1.display"
+msgid "###"
+msgstr ""
+
+#: fontFamilyIntl1.css
+msgctxt "fontFamilyIntl1.css"
+msgid "###"
+msgstr ""
+
+#: fontFamilyIntl2.display
+msgctxt "fontFamilyIntl2.display"
+msgid "###"
+msgstr ""
+
+#: fontFamilyIntl2.css
+msgctxt "fontFamilyIntl2.css"
+msgid "###"
+msgstr ""
+
+#: fontFamilyIntl3.display
+msgctxt "fontFamilyIntl3.display"
+msgid "###"
+msgstr ""
+
+#: fontFamilyIntl3.css
+msgctxt "fontFamilyIntl3.css"
+msgid "###"
+msgstr ""
+
+#: fontFamilyIntl4.display
+msgctxt "fontFamilyIntl4.display"
+msgid "###"
+msgstr ""
+
+#: fontFamilyIntl4.css
+msgctxt "fontFamilyIntl4.css"
+msgid "###"
+msgstr ""
+
+#: fontFamilyIntl5.display
+msgctxt "fontFamilyIntl5.display"
+msgid "###"
+msgstr ""
+
+#: fontFamilyIntl5.css
+msgctxt "fontFamilyIntl5.css"
+msgid "###"
+msgstr ""
+
+#: fontFamilyIntl6.display
+msgctxt "fontFamilyIntl6.display"
+msgid "###"
+msgstr ""
+
+#: fontFamilyIntl6.css
+msgctxt "fontFamilyIntl6.css"
+msgid "###"
+msgstr ""
+
+#: fontFamilyIntl7.display
+msgctxt "fontFamilyIntl7.display"
+msgid "###"
+msgstr ""
+
+#: fontFamilyIntl7.css
+msgctxt "fontFamilyIntl7.css"
+msgid "###"
+msgstr ""
+
+#: fontFamilyIntl8.display
+msgctxt "fontFamilyIntl8.display"
+msgid "###"
+msgstr ""
+
+#: fontFamilyIntl8.css
+msgctxt "fontFamilyIntl8.css"
+msgid "###"
+msgstr ""
+
+#: fontFamilyIntl9.display
+msgctxt "fontFamilyIntl9.display"
+msgid "###"
+msgstr ""
+
+#: fontFamilyIntl9.css
+msgctxt "fontFamilyIntl9.css"
+msgid "###"
+msgstr ""
+
+#: fontFamilyIntl10.display
+msgctxt "fontFamilyIntl10.display"
+msgid "###"
+msgstr ""
+
+#: fontFamilyIntl10.css
+msgctxt "fontFamilyIntl10.css"
+msgid "###"
+msgstr ""
+
+#: fontFamilyIntl11.display
+msgctxt "fontFamilyIntl11.display"
+msgid "###"
+msgstr ""
+
+#: fontFamilyIntl11.css
+msgctxt "fontFamilyIntl11.css"
+msgid "###"
+msgstr ""
+
+#: fontFamilyIntl12.display
+msgctxt "fontFamilyIntl12.display"
+msgid "###"
+msgstr ""
+
+#: fontFamilyIntl12.css
+msgctxt "fontFamilyIntl12.css"
+msgid "###"
+msgstr ""
+
+#: fontFamilyIntl13.display
+msgctxt "fontFamilyIntl13.display"
+msgid "###"
+msgstr ""
+
+#: fontFamilyIntl13.css
+msgctxt "fontFamilyIntl13.css"
+msgid "###"
+msgstr ""
+
+#: fontFamilyIntl14.display
+msgctxt "fontFamilyIntl14.display"
+msgid "###"
+msgstr ""
+
+#: fontFamilyIntl14.css
+msgctxt "fontFamilyIntl14.css"
+msgid "###"
+msgstr ""
+
+#: fontFamilyIntl15.display
+msgctxt "fontFamilyIntl15.display"
+msgid "###"
+msgstr ""
+
+#: fontFamilyIntl15.css
+msgctxt "fontFamilyIntl15.css"
+msgid "###"
+msgstr ""
+
+#: fontFamilyIntl16.display
+msgctxt "fontFamilyIntl16.display"
+msgid "###"
+msgstr ""
+
+#: fontFamilyIntl16.css
+msgctxt "fontFamilyIntl16.css"
+msgid "###"
+msgstr ""
+
+#: fontFamilyIntl17.display
+msgctxt "fontFamilyIntl17.display"
+msgid "###"
+msgstr ""
+
+#: fontFamilyIntl17.css
+msgctxt "fontFamilyIntl17.css"
+msgid "###"
+msgstr ""
+
+#: fontFamilyIntl18.display
+msgctxt "fontFamilyIntl18.display"
+msgid "###"
+msgstr ""
+
+#: fontFamilyIntl18.css
+msgctxt "fontFamilyIntl18.css"
+msgid "###"
+msgstr ""
+
+#: fontFamilyIntl19.display
+msgctxt "fontFamilyIntl19.display"
+msgid "###"
+msgstr ""
+
+#: fontFamilyIntl19.css
+msgctxt "fontFamilyIntl19.css"
+msgid "###"
+msgstr ""
+
+#: fontFamilyIntl20.display
+msgctxt "fontFamilyIntl20.display"
+msgid "###"
+msgstr ""
+
+#: fontFamilyIntl20.css
+msgctxt "fontFamilyIntl20.css"
+msgid "###"
+msgstr ""
+
+#: fontFamilyIntl21.display
+msgctxt "fontFamilyIntl21.display"
+msgid "###"
+msgstr ""
+
+#: fontFamilyIntl21.css
+msgctxt "fontFamilyIntl21.css"
+msgid "###"
+msgstr ""
+
+#: calc.ordinal.first
+msgid "1st|first"
+msgstr ""
+
+#: calc.ordinal.second
+#, fuzzy
+msgid "2nd|second"
+msgstr ""
+"#-#-#-#-#  kalzium-bs.po (kalzium)  #-#-#-#-#\n"
+"sekunde\n"
+"#-#-#-#-#  kstars-bs.po (kstars)  #-#-#-#-#\n"
+"sekundi\n"
+"#-#-#-#-#  ktimer-bs.po (ktimer)  #-#-#-#-#\n"
+"sekundi\n"
+"#-#-#-#-#  kpartsaver-bs.po (kpartsaver)  #-#-#-#-#\n"
+"sekundi\n"
+"#-#-#-#-#  plasma_applet_nuclearCalculator-bs.po (kdeedu)  #-#-#-#-#\n"
+"sekundi\n"
+"#-#-#-#-#  kdenlive-bs.po (bosnianuniversetranslation)  #-#-#-#-#\n"
+"sekunde"
+
+#: calc.ordinal.third
+msgid "3rd|third"
+msgstr ""
+
+#: calc.ordinal.fourth
+msgid "4th|fourth"
+msgstr ""
+
+#: calc.ordinal.fifth
+msgid "5th|fifth"
+msgstr ""
+
+#: calc.ordinal.last
+#, fuzzy
+msgid "last"
+msgstr "Oblasti"
+
+#: calc.dayname.sunday
+#, fuzzy
+msgid "sun|sunday"
+msgstr "Nedjelja"
+
+#: calc.dayname.monday
+#, fuzzy
+msgid "mon|monday"
+msgstr "Ponedjeljak"
+
+#: calc.dayname.tuesday
+msgid "tue|tues|tuesday"
+msgstr ""
+
+#: calc.dayname.wednesday
+#, fuzzy
+msgid "wed|wednesday"
+msgstr "Srijeda"
+
+#: calc.dayname.thursday
+msgid "thu|thur|thurs|thursday"
+msgstr ""
+
+#: calc.dayname.friday
+#, fuzzy
+msgid "fri|friday"
+msgstr "Ferriday"
+
+#: calc.dayname.saturday
+#, fuzzy
+msgid "sat|saturday"
+msgstr "Subota"
+
+#: calc.monthname.january
+#, fuzzy
+msgid "jan|january"
+msgstr "Januar"
+
+#: calc.monthname.february
+#, fuzzy
+msgid "feb|february"
+msgstr "Februar"
+
+#: calc.monthname.march
+msgid "mar|march"
+msgstr ""
+
+#: calc.monthname.april
+msgid "apr|april"
+msgstr ""
+
+#: calc.monthname.may
+msgid "may"
+msgstr "maj"
+
+#: calc.monthname.june
+msgid "jun|june"
+msgstr ""
+
+#: calc.monthname.july
+msgid "jul|july"
+msgstr ""
+
+#: calc.monthname.august
+#, fuzzy
+msgid "aug|august"
+msgstr "Famagusta"
+
+#: calc.monthname.september
+#, fuzzy
+msgid "sep|september"
+msgstr "Septembar"
+
+#: calc.monthname.october
+#, fuzzy
+msgid "oct|october"
+msgstr "Oktobar"
+
+#: calc.monthname.november
+#, fuzzy
+msgid "nov|november"
+msgstr "Novembar"
+
+#: calc.monthname.december
+#, fuzzy
+msgid "dec|december"
+msgstr "Decembar"
+
