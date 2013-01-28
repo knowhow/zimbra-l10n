@@ -8,3 +8,5 @@ zimbra v7
 
 postavljeni po/pot fajlovi za verziju: 7.1.2
 
+
+http://wiki.zimbra.com/index.php?title=Translations
